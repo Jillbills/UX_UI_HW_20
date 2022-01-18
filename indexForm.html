@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jill Van's UX Design Portfolio Contact Form</title>
+<!-- Meta code  -->
+    <meta name="description" content="Jill Van's UX Design Portfolio Contact Form" />
+    <meta name="keywords" content="UX Design, UX/UI, user experience, digital portfolio, online portfolio, contact form" />
+    <meta http-equiv="author" content="Jill Van" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Linking files  -->
+    <!-- Bootstrap CSS file  -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
+
+    <!-- Original linked file before homepage was renamed <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="./css/styleConnectForm.css">
+
+<!--Codes to embed Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans&family=Oswald:wght@700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+
+
+<!--Add anchor tags to topnav - defer until we learn more on JavaScript?-->
+
+<body>
+
+<!-- Sticky Header with topNav -->
+<header class="header" id="myHeader">
+    <!-- Original logo width="150px" height="75px"  -->
+    <!-- <img class="logo" src="images/LogoJVanRoundDark.svg" alt="Jill Van's logo">  -->
+    <a href="./portfolioHomeIndex.html"><img class="logo" src="images/LogoJVanRoundDark.svg" alt="Jill Van's logo"></a>
+    <div class="topNav">
+        <nav class="inline">
+            <ul>
+                <a href="#about"><li class="navLinks">About</li></a>
+                <a href="#work"><li class="navLinks">Work</li></a>
+                <!-- <a href="#connect"><li class="navLinks">Connect</li></a>  -->
+                <li class="navLinks" id="navConnect">Connect</li>
+            </ul>
+            <br>
+        </nav>
+    </div>
+</header>
+
+
+
+<div class="content">
+<!--CONNECT Section-->
+<section id="connectContent">
+    <h1>Let's Connect</h1>
+    <!--Check out the form action tutorial - where will the form take you?-->
+    <div class="formSection"> 
+        <form action="/desktopConnectionConfirmation.php">
+            <label for="name" class="formText" size="50px" c>Name*</label><br>
+            <input type="text" class="formText" id="name" name="name" placeholder="Enter your preferred name" size="40"><br>
+            <label for="required" class="formText">*Required</label><br><br>
+            <label for="emailAddress" class="formText">Email address*</label><br>
+            <input type="text" class="formText" id="emailAddress" name="emailAddress" placeholder="Type email address" size="40"><br>
+            <label for="required" class="formText">*Required</label><br><br>
+            <label for="phoneNumber" class="formText">Phone number</label><br>
+            <input type="phoneNumber" class="formText" id="phoneNumber" name="phoneNumber" placeholder="(xxx) xxx - xxxx" size="40"><br>
+            <label for="optional" class="formText">Optional</label><br><br>
+            <label for="mayItext" class="formText">May I text you at this number?</label><br>
+                <input type="radio" class="formText" name="yesorno" value="yes"><span class="formText">Yes</span><br>
+
+                <input type="radio" class="formText" name="yesorno" value="no"><span class="formText">No</span><br><br>
+            <label for="messageBox" class="formText">Message*</label><br>
+            <textarea id="messageBox" class="formText" name="messageBox" rows="10" cols="50" placeholder="Your message"></textarea><br>
+            <!-- </div><br> -->
+            <label for="messageBoxNote" class="formText">I'll never share your email with anyone else</label><br><br>
+            <button id="connectButton" type="button">Submit</button>
+        </form>
+    </div>
+
+
+    <!-- The modal content is #modalConnect This modal confirms submission of the form.-->
+    <div id="modalConnect" class="modal">
+        <span class="close">&times;</span>
+        <h3 class="h3modal">Thank You!</h3>
+        <p class="pModal">I'll be in touch with you soon.</p>
+    </div> 
+
+
+
+
+    <hr>
+</section>
+
+
+
+
+<!--Footer-->
+<footer>
+    <section class="footer">
+        <div>
+            <h1 class="footerh1">Let's</h1>
+            <h1 class="footerh1">Connect!</h1>
+        </div>
+
+        <div class="connectIcons">
+            <div class="emailWithIcon">
+                <a href="#connectContent"><img src="./images/emailIcon.png" alt="email icon" width="60px" height="42px"></a>
+                <a href="#connectContent"><h6 class="footerh6 emailText">Email</h6></a>
+            </div>
+
+            <div class="LinkedInWithIcon">
+                <img src="./images/LinkedInIcon.png" alt="LinkedIn icon" width="60px" height="55px">
+                <h6 class="footerh6 LinkedInText">LinkedIn</h6>
+            </div>
+        </div>
+
+        <div class="footerResume">
+            <h6 class="footerh6">Explore my work history</h6>
+            <button id="buttonResume" type="button">Resume</button>
+        </div>
+
+        <p id="footerText"> &copy Copyright 2022 - Designed by Jill Van</p>
+    </section>
+    </footer>
+
+</div> <!-- This closes my "content" class div which contains most of body through footer, excludes the sticky header-->
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Bootstrap JavaScript  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- My JavaScript  -->
+<script src="./js/portfolioHomeindex.js">
+</script>
+
+
+<script>
+    // STICKY HEADER feature - shows hero img first, then scroll to stick header.
+window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    };
+
+
+
+// MODAL when  you click Submit button in the CONNECT section of my homepage 
+// Get the modal 
+var modal = document.getElementById("modalConnect");
+
+// Get the button that opens the modal
+var btn = document.getElementById("connectButton");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+// This original code works to open the modal but modal also opens everytime page is refreshed ???
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+</script>
+
+
+
+
+</body>
+</html>
+
