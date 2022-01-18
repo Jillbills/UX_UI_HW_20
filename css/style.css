@@ -8,10 +8,11 @@ h1 {
     line-height: 84px;
     text-transform: uppercase;
     text-align: center; 
-    /* padding-top: 4rem; */
-    padding-bottom: 4rem;
     margin-block-end: 0;
     margin-block-start: 0;
+    padding-top: 8rem;
+    /* padding-bottom: 4rem;  */
+    padding-bottom: 8rem;
 }
 
 h2 {
@@ -71,10 +72,6 @@ li {
     font-size: 20px;
     font-weight: normal;
     line-height: 28px;
-}
-
-.h2r {
-   text-align: right;
 }
 
 .header3 {
@@ -183,18 +180,26 @@ button:hover {
 
 
 /* ALL SECTIONS styling */
+.content {
+    background-color: #000000;
+}
+
 #UXresearch, #definition, #ideation, #prototyping, #usabilityTesting, #finalPrototype, #conclusion {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
 
 .container, .card-body {
-    background-color: #000000;
+    background-color: #000000; 
 }
 
 .row {
-    background-color: #000000;
+    background-color: #000000; 
     padding-bottom: 8rem;
+}
+
+.card-body p {
+    padding-bottom: 1rem;
 }
 
 
@@ -278,12 +283,82 @@ a {
 /* Need to target p element in Our Team section bottom right column to align-items: bottom; with flex  */
 
 
+
+
 /* Design Tools section  */
+.designTools {
+    padding-bottom: 4rem; 
+}
+
+.designTools h3 {
+    padding-bottom: 4rem; 
+}
+
+.designToolsIcons {
+    text-align: right;
+    margin-right: 2rem;
+    padding-bottom: 8rem; 
+}
 
 
 
 /* Design Phases section  */
+.designPhases h1 {
+    padding-bottom: 4rem; 
+}
 
+.designPhasesIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.phaseIcon01:hover {
+    animation: spin 0.7s 1;
+}
+
+.phaseIcon02:hover {
+    animation: spin 0.7s 1;
+}
+
+.phaseIcon03:hover {
+    animation: spin 0.7s 1;
+}
+
+.phaseIcon04:hover {
+    animation: spin 0.7s 1;
+}
+
+.phaseIcon05:hover {
+    animation: spin 0.7s 1;
+}
+
+.phaseIcon06:hover {
+    animation: spin 0.7s 1;
+}
+
+@keyframes spin {
+    from {
+    transform: rotate(0deg) scale(1.25);
+    /* transform: scale(1.25); */
+    }
+    50% {
+    transform: rotate(10deg) scale(1.3);
+    /* transform: scale(1.25); */
+    }
+    75% {
+    transform: rotate(-5deg) scale(1.3);
+    }
+    to {
+    transform: rotate(0deg) scale(1.25);
+    /* transform: scale(1.25); */
+    }
+  }
+
+
+/* .designPhases {
+    padding-bottom: 12rem;
+} */
 
 
 /* UX RESEARCH section in 1 or 2 grids  */
@@ -297,6 +372,19 @@ a {
 /* IDEATION section with Storyboard on carousel. 
     Accordian for Key Features?  */
 
+
+    /* 
+  @keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }  */
 
 
 /* PROTOTYPING section */
