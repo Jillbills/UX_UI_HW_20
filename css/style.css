@@ -8,8 +8,8 @@ h1 {
     line-height: 84px;
     text-transform: uppercase;
     text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* padding-top: 4rem; */
+    padding-bottom: 4rem;
     margin-block-end: 0;
     margin-block-start: 0;
 }
@@ -21,8 +21,8 @@ h2 {
     /* Original was font-weight: 800;  */
     font-weight: 700;
     line-height: 68px;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    /* padding-top: 2rem;  */
+    padding-bottom: 4rem;
     margin-block-end: 0;
     margin-block-start: 0;
 }
@@ -126,18 +126,16 @@ strong {
     /* why is the copyright footer text not centered? */
 }
 
-
-
 /* TEXT ALIGN Styles  */
-.txt-center {
+.text-center {
     text-align: center;
 }
 
-.txt-left {
+.text-left {
     text-align: left;
 }
 
-.txt-right {
+.text-right {
     text-align: right;
 }
 
@@ -174,3 +172,83 @@ button:hover {
     padding: 0.5rem 2rem;
     margin-right: 1rem;
 }
+
+
+/* ALL SECTIONS styling */
+#UXresearch, #definition, #ideation, #prototyping, #usabilityTesting, #finalPrototype, #conclusion {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+
+
+
+/* Sticky Header with topNav  */
+
+
+
+/* Hero Intro, Project Overview, & Our Team sections in a grid  */
+
+
+
+/* Design Tools section  */
+
+
+
+/* Design Phases section  */
+
+
+
+/* UX RESEARCH section in 1 or 2 grids  */
+
+
+
+/* DEFINITION section  */
+
+
+
+/* IDEATION section with Storyboard on carousel. 
+    Accordian for Key Features?  */
+
+
+
+/* PROTOTYPING section */
+
+
+
+/* USABILITY TESTING section in 2x2 grid  */
+.bg-dark {
+    background-color: #171717; 
+}
+
+.bg-dark p {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+/* link Dancing Script Google font to change to modern script instead of cursive  */
+.scriptInsight {
+    color: #7C7DCB;
+    font-family: Dancing Script, cursive;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 40px;
+    line-height: 104%;
+    letter-spacing: -2%;  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* FINAL PROTOTYPE section  */
+
+
+
+/* CONCLUSION section  */
+
+
+
+
+/* FOOTER  */
