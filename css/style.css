@@ -65,6 +65,14 @@ p {
     line-height: 28px;
 }
 
+li {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
 .h2r {
    text-align: right;
 }
@@ -180,6 +188,15 @@ button:hover {
     padding-bottom: 8rem;
 }
 
+.container, .card-body {
+    background-color: #000000;
+}
+
+.row {
+    background-color: #000000;
+    padding-bottom: 8rem;
+}
+
 
 
 
@@ -198,6 +215,7 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .topNav {
@@ -252,7 +270,12 @@ a {
 
 
 /* Hero Intro, Project Overview, & Our Team sections in a grid  */
+#EYprototypeMockup {
+    background-color: #000000;
+    padding-bottom: 1.1rem;
+}
 
+/* Need to target p element in Our Team section bottom right column to align-items: bottom; with flex  */
 
 
 /* Design Tools section  */
@@ -281,6 +304,7 @@ a {
 
 
 /* USABILITY TESTING section in 2x2 grid  */
+/* Does the grid have a hidden z-index? It runs right over my sticky header  */
 .bg-dark {
     background-color: #171717; 
 }
