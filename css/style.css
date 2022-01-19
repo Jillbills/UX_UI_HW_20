@@ -1,6 +1,12 @@
 /* TEXT/FONT/COPY Styles */
+/* Educate Ya primary brand colors
+color: #002a44; edit to     color: #194d6d; so it's easier to see
+color: #c61f4b; 
+color: #4C555D;  made this     color: #6b7680; a brighter gray too*/
+
 h1 {
-    color: #7C7DCB;
+    /* color: #7C7DCB;  */
+    color: #194d6d;
     font-family: 'Oswald', sans-serif;
     /* original font size was 76px  */
     font-size: 108px;
@@ -16,7 +22,8 @@ h1 {
 }
 
 h2 {
-    color: #B0B3C3;
+    /* color: #B0B3C3;  */
+    color: #6b7680;
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     /* Original was font-weight: 800;  */
@@ -29,7 +36,8 @@ h2 {
 }
 
 h3 {
-    color: #B0B3C3;
+    /* color: #B0B3C3;  */
+    color: #6b7680;
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -48,7 +56,8 @@ h4 {
 }
 
 h6 {
-    color: #7C7DCB;
+    /* color: #7C7DCB;  */
+    color: #c61f4b;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -75,7 +84,8 @@ li {
 }
 
 .header3 {
-    color: #B0B3C3;
+    /* color: #B0B3C3;  */
+    color: #6b7680;
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -83,7 +93,8 @@ li {
 }
 
 .header4 {
-    color: #7C7DCB;
+    /* color: #7C7DCB;  */
+    color: #c61f4b;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -92,7 +103,9 @@ li {
 }
 
 strong {
-    color: #7C7DCB;
+    
+    /* color: #7C7DCB;  */
+    color: #c61f4b;
 }
 
 .formText {
@@ -366,6 +379,20 @@ a {
     padding-bottom: 2rem;
 }
 
+.EYblueColorblock {
+    color: #002a44;
+    width: 100%;
+    height: 8rem;
+    border: 2px solid blue;
+}
+
+.EYpinkColorblock {
+    color: #c61f4b;
+    width: 100%;
+    height: 4rem;
+    border: 2px solid magenta;
+}
+
 
 
 /* DEFINITION section  */
@@ -440,7 +467,8 @@ a {
 }
 /* link Dancing Script Google font to change to modern script instead of cursive  */
 .scriptInsight {
-    color: #7C7DCB;
+    /* color: #7C7DCB;  */
+    color: #c61f4b;
     font-family: 'Dancing Script';
     font-style: bold;
     font-size: 32px;
