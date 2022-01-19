@@ -1,0 +1,1205 @@
+/* TEXT/FONT/COPY Styles */
+h1 {
+    color: #7C7DCB;
+    font-family: 'Oswald', sans-serif;
+    /* original font size was 76px  */
+    font-size: 108px;
+    font-weight: bold;
+    line-height: 84px;
+    text-transform: uppercase;
+    text-align: center; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h2 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    /* Original was font-weight: 800;  */
+    font-weight: 700;
+    line-height: 68px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h3 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -4%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h6 {
+    color: #7C7DCB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+p {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.h2r {
+   text-align: right;
+}
+
+.header3 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.header4 {
+    color: #7C7DCB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -4%;
+}
+
+strong {
+    color: #7C7DCB;
+}
+
+.formText {
+    color: #B0B3C3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footerh1 {
+    color: #F1F0F4;
+    text-align: left;
+    font-size: 76px;
+    line-height: 8px;
+    /* margin-left: 0px;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem; */
+}
+
+.footerh6 {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+#footerText {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-left: 3rem;
+    /* why is the copyright footer text not centered? */
+}
+
+/* #h2.h2rightAlign {
+    text-align: right;
+} */
+
+
+
+/* BUTTON/ASSETS STYLES */
+button {
+    border: 3px solid #7C7DCB;
+    border-radius: 4px;
+    color: #7C7DCB;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-style: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    /* transition: background-color 0.5s ease-in-out;   */
+    /* Use these properties below??? */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+button:hover {
+    background-color: #7C7DCB;
+    color: #F1F0F4;
+    border: 3px solid #7C7DCB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-style: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    /* transition: background-color 0.5s ease-in-out;   */
+    /* Use these properties below??? */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+
+
+
+/* HERO Section */
+
+
+/* ANIMATED ELEMENTS in hero  */
+/* overflow property doesn't appear to be doing anything yet, but
+visibility: hidden; works to hide the div */
+
+/* .heroLogo {
+    width: 296px;
+    z-index: 1;
+    position: absolute;
+    top: 12.18%;
+    left: 7.95%;
+    visibility: hidden;  
+} 
+
+.heroLogo.animate {
+    animation: slidein 1s ease-in;
+    animation-direction: normal;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(0%);
+      }
+    100% {
+        transform: translateX(150%);
+      } 
+} */
+
+
+/* 
+.heroCopy {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+    visibility: hidden; 
+}
+
+.heroCopy.animate {
+    animation: dropin 1s ease-in;
+    animation-direction: normal;
+}
+
+@keyframes dropin {
+    0% {
+        transform: translateY(-50%);
+      }
+    50% {
+        transform: translateY(0%);
+      } 
+    100% {
+        transform: translateY(20%);
+      } 
+}  */
+
+
+
+/* STATIC ELEMENTS in hero  */
+.heroContent {
+    background-color: #000000;
+}
+
+.heroImg {
+    width: 100%; 
+}
+
+.hero{
+    width: 100%;
+}
+
+/* Bouncing Scroll Icon Animation  */
+.scrollIcon {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 1%; */
+    z-index: 1;
+    animation: bounce 2s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-50px);
+      }
+      60% {
+        transform: translateY(-25px);
+      } 
+}
+
+
+
+
+/* HEADER AND NAV styles */
+.logo {
+    margin-left: 2rem;
+    max-height: 75px;
+}
+
+.header {
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topNav {
+    align-items: flex-end;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.inline {
+    display: inline;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navLinks {
+    display: inline;
+    /* color: #7C7DCB;  */
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;  
+    vertical-align: middle; 
+    /* margin-top: 0.5rem;  */
+}
+
+a {
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    text-decoration: underline;
+    text-decoration-color: #7C7DCB;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
+}
+
+
+
+/*STICKY HEADER styling */
+.sticky {
+    position: fixed;
+    top: 0;
+    /* width: 98.5%; Was testing this over Zoom earlier but 100% seems to work better */
+    width: 100%; 
+  }
+  
+  /* .sticky + .content {
+    padding-top: 102px; 
+  } */
+
+
+
+/* FLEXBOX Styles */
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/* ABOUT Section */
+#about {
+    background-color: #000000;
+    /* padding-top: 5rem;  */
+    padding-top: 8rem;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    
+}
+
+.aboutCopy {
+    /* flex-grow: 1; */
+    /* padding: 3rem; */
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-top: 4rem;
+    padding-bottom: 8rem; 
+}
+
+.aboutCopy button {
+    margin-top: 1rem;
+}
+
+#about h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.myEntrepreneurVenture {
+    padding-bottom: 8rem; 
+}
+
+.ventureContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.solImagery {
+    /* width: 50%;  */
+    width: 42.5%;
+    flex: 1;
+    margin-left: 5%;
+}
+
+#SOLdecalImg {
+    width: 100%;
+}
+
+.solImagery button {
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.solCopy {
+    /* width: 30%;  */
+    width: 42.5%;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#etsyHeader {
+    width: 75%;
+}
+
+
+
+/* v2 Bootstrap based SOL Modal Warning of linking to offsite website when clicking Explore button */
+/* How do I make my bootstrap modal not scrollable?  Currently deactivated*/
+.modal-content {
+    background-color: #e65d08;
+    border-radius: 6px;
+    border: none;
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+#ModalCenterTitleSOL {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2%;
+}
+
+.SOLmodal-body {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.modal-footer button {
+border: 3px solid #ECE5BA;
+border-radius: 4px;
+color: #ECE5BA;
+box-sizing: border-box;
+/* background-color: #7C7DCB;  */
+background-color: transparent; 
+margin-top: 1rem;
+}
+
+
+
+
+
+
+.myPlayground {
+    padding-bottom: 8rem; 
+}
+
+/* v1 grid coding */
+/* grid-template-columns: 33.33% 41.67% 25%; */
+.row1 {
+    display: grid;
+    grid-template-columns: 4fr 5fr 3fr;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Spin animation keyframes on Thomas just for HW19 - Remove for actual portfolio  */
+.col01List {
+    margin: 0;
+}
+
+/* bullets or no bullets hmmm... code for no bullets */
+/* .hobbiesList li {
+    list-style-type: none;
+} */
+.hobbiesList {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: -2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.col02topRow, .col03topRow {
+    margin-right: 0px;
+}
+
+.familyPhoto {
+    background-image: url("../images/playgroundImages/familyPhoto.png");
+    height: 100%;
+    width: 96%;
+    margin-left: 3%;
+    margin-right: 0%;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+}
+
+.familyPhoto:hover {
+    background-image: url("../images/playgroundImages/theOffspring.png");
+    height: 100%;
+}
+
+.thomasPhoto {
+    background-image: url("../images/playgroundImages/playgroundThomas.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+    /* width: 96%;
+    margin-left: 2%;
+    margin-right: 2%; */
+}
+
+.thomasPhoto:hover {
+    background-image: url("../images/playgroundImages/ShinobiPainting.png");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.col03topRow:hover {
+    animation: spin2 5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes spin2 {
+    from {
+        transform: rotate(0deg);
+        }
+        50% {
+        transform: rotate(360deg);
+        }
+        75% {
+        transform: rotate(-5deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+}
+
+#col02topRow, #col03topRow {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.col25 {
+    /* justify-content: space-evenly;  */
+    /* width: 96%;
+    margin-left: 2%;
+    margin-right: 2%; */
+    height: 300px;
+} 
+
+
+
+
+
+/* Add transition effects here
+Trick was to be sure that I am using the ../images to follow the correct file structure. It also need a height set to it i.e. height: 100% */
+.Illenium {
+    background-image: url("../images/playgroundImages/IlleniumStage.png"); 
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+}
+
+.Illenium:hover {
+    background-image: url("../images/playgroundImages/IlleniumPurpleLogo.png");
+    height: 100%;
+}
+
+.lanternFestivalPic {
+    background-image: url("../images/playgroundImages/lanternFestivalNight.png"); 
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+}
+
+.lanternFestivalPic:hover {
+    background-image: url("../images/playgroundImages/lanternFestivalSunset.png"); 
+    height: 100%;
+}
+
+.beachPic {
+    background-image: url("../images/playgroundImages/KauaiBeach.png"); 
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+}
+
+.beachPic:hover {
+    background-image: url("../images/playgroundImages/HawaiiBeach.png"); 
+    height: 100%;
+}
+
+.wcPainting {
+    background-image: url("../images/playgroundImages/ladyPainting.png"); 
+    /* height: 100%; */
+    height: 300px;  
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+}
+
+.wcPainting:hover {
+    background-image: url("../images/playgroundImages/flamingoPainting.png"); 
+    height: 100%; 
+}
+
+
+
+.designSkills {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 8rem;
+}
+
+
+#UXskillsImg {
+    flex-shrink: 1;
+    padding-left: 2.5rem;
+}
+
+.designTools {
+    padding-bottom: 4rem; 
+}
+
+.designToolsIcons {
+    text-align: right;
+    margin-right: 2rem;
+    padding-bottom: 8rem; 
+}
+
+
+/* WORK Section */
+#work {
+    /* background-color: #F1F0F4; */
+    background-color: #202023;
+    /* padding-top: 5rem;  */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.EducateYa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.educateYaPrototype {
+    width: 42%;
+    margin-left: 3%;
+}
+
+.educateYaSummary {
+    width: 42%;
+    flex-grow: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#EYmockup {
+    width: 100%;
+}
+
+.DeptEd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.USdeptOfEducationSummary {
+    flex-grow: 1;
+    width: 42%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.edCoverImage {
+    width: 42%;
+    margin-right: 3%;
+}
+
+#edImg {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.Meerkat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.MeerkatCoverImage {
+    /* flex-basis: 595px;  */
+    width: 42%;
+    margin-left: 3%;
+}
+
+#MeerkatImg {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.MeerkatSummary {
+    width: 42%;
+    flex-grow: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+
+
+/* FOOTER Styles */
+.footer {
+    /* background-color: #7C7DCB; */
+    background-color: #000000; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-template-rows: 1.75fr 0.25fr;
+    grid-template-areas: 
+        "footerh1 connectIcons footerResume"
+        "#footerText #footerText #footerText"
+        ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .footerh1 {
+    grid-area: footerh1;
+} */
+
+.connectIcons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    /* grid-area: connectIcons; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerh1 {
+    color: #F1F0F4;
+    text-align: left;
+    /* line-height: 16px; */
+    padding-top: 2rem;
+    padding-left: 10%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.footerh6 {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+#footerText {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+/* Why can't I get this p id div to center across the entire width?  */
+}
+
+.emailWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+.emailText:hover {
+    color: #7C7DCB;
+}
+
+.LinkedInWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.LinkedInText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+#buttonResume {
+    margin-left: 3.75rem;
+}
+
+.footer button {
+/* I want to center this in the div */
+    border: 3px solid #ECE5BA;
+    border-radius: 4px;
+    color: #ECE5BA;
+    box-sizing: border-box;
+    /* background-color: #7C7DCB;  */
+    background-color: #000000; 
+    margin-top: 1rem;
+}
+
+.footer button:hover {
+    background: #F1F0F4;
+    color: #7C7DCB;
+    border-color: #F1F0F4;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+
+
+
+
+
+
+
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+@media only screen and (max-width: 600px) {
+
+    /* Need to do media queries for homepage mobile view */
+    h1 {
+        line-height: 108px;
+    }
+
+    /* HERO section */
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heroImg {
+        flex-shrink: 1;
+    }
+
+
+    /* HEADER AND NAV styles */
+    .logo {
+        margin-left: 1%;
+    }
+/* Should actually create a menu icon that leads to mobile menu instead  */
+    .topNav {
+        margin-right: 0.5rem;
+    }
+
+
+    /* To make nav list items stack in a column instead */
+    /* ul {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    h1 {
+        margin-left: 0.5rem;
+    }
+
+
+    /* ABOUT section  */
+
+    /* ABOUT Entrepreneur Venture */
+    /* .myEntrepreneurVenture {
+        padding-bottom: 2rem;
+    } */
+    .ventureContainer {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    
+    .solImagery {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #SOLdecalImg {
+        width: 100%;
+    }
+
+    .solImagery button {
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        width: 40%;
+        align-self: center;
+    }
+
+    .solCopy {
+        flex-grow: 1;
+        margin: 0px;
+        width: 100%;
+    }
+
+
+    /* ABOUT Playground */
+    /* Change grid layout to flexbox layout columns */
+    .myPlayground {
+        padding-bottom: 4rem;
+    }
+
+    #playgroundGrid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
+    }
+
+    .col02topRow {
+        width: 96%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .col03topRow {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+
+    /* .col25 {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+    } */
+
+    .Illenium, .lanternFestivalPic, .beachPic, .wcPainting {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+
+
+
+    /* ABOUT Design Skills */
+    .designSkills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    #UXskillsImg {
+        padding-left: 0px;
+        margin: 0px;
+        background-color: #e3ddf6;
+/* Need to make this img scale properly and left aligned  */
+    }
+
+    /* ABOUT Design Tools */
+    .h2r {
+        text-align: left;
+    }
+
+    .designToolsIcons {
+        text-align: center;
+    }
+
+
+
+    /* WORK section */
+    .EducateYa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .educateYaSummary {
+        width: 88%; 
+        margin-right: 0.5rem;  
+        justify-self: center; 
+    }
+
+    .educateYaPrototype {
+        padding-top: 1rem;
+        max-width: 595px;
+    }
+
+    .educateYaSummary, .educateYaPrototype {
+        width: 88%;
+        padding-bottom: 2rem;
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem; */
+    }
+
+    .educateYaPrototype img {
+        width: 100%;
+    }
+
+
+    .DeptEd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .USdeptOfEducationSummary, .edCoverImage {
+        width: 88%;
+        padding-bottom: 2rem;
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem; */
+    }
+
+    .edCoverImage {
+        padding-top: 1rem;
+        max-width: 595px;    
+    }
+
+    .edCoverImage img {
+        width: 100%;
+    }
+
+    /* Control this rogue img file. Why isn't flex-shrink working? */
+    .Meerkat {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin: 0 auto; */
+        /* position: relative;  */
+    }
+
+    .MeerkatSummary {
+        width: 88%;
+        /* margin-right: 0.5rem; */
+        justify-self: center;
+    }
+
+    .MeerkatCoverImage {
+        padding-top: 1rem;
+        max-width: 595px;  
+        /* justify-self: center;
+        padding-top: 0px;
+        padding-bottom: 0px; */
+        /* position: absolute;
+        left: 50%;
+        transform: translateX(-50%); */
+    }
+
+    .MeerkatSummary, .MeerkatCoverImage {
+        width: 88%;
+        padding-bottom: 2rem;
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem; */
+    }
+
+    .MeerkatCoverImage img {
+        width: 100%;
+    }
+
+
+
+
+
+
+    /* CONNECT section */
+    #connect { 
+        padding-bottom: 3rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .formSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        margin-left: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .connectGIF {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    /* FOOTER section */
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerh1 {
+        text-align: center;
+        /* padding-top: 2rem;
+        margin-top: 2rem; */
+    }
+
+    .connectIcons {
+        text-align: center;
+    }
+
+    .footerResume {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+/* How do I center this button?  */
+    .footer button {
+        text-align: center;
+        justify-self: center;
+    }
+
+    #footerText {
+        text-align: center;
+    }
+
+}
+
+
+
+

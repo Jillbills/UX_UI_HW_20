@@ -1,0 +1,479 @@
+/* TEXT/FONT/COPY Styles */
+h1 {
+    color: #7C7DCB;
+    font-family: 'Oswald', sans-serif;
+    /* original font size was 76px  */
+    font-size: 108px;
+    font-weight: bold;
+    line-height: 84px;
+    text-transform: uppercase;
+    text-align: center; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h2 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    /* Original was font-weight: 800;  */
+    font-weight: 700;
+    line-height: 68px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h3 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -4%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h6 {
+    color: #7C7DCB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+p {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.h2r {
+   text-align: right;
+}
+
+.header3 {
+    color: #B0B3C3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.header4 {
+    color: #7C7DCB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -4%;
+}
+
+strong {
+    color: #7C7DCB;
+}
+
+.formText {
+    color: #B0B3C3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footerh1 {
+    color: #F1F0F4;
+    text-align: left;
+    font-size: 76px;
+    line-height: 8px;
+    /* margin-left: 0px;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem; */
+}
+
+.footerh6 {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+#footerText {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-left: 3rem;
+    /* why is the copyright footer text not centered? */
+}
+
+/* #h2.h2rightAlign {
+    text-align: right;
+} */
+
+
+
+/* BUTTON/ASSETS STYLES */
+button {
+    border: 3px solid #7C7DCB;
+    border-radius: 4px;
+    color: #7C7DCB;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-style: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    /* transition: background-color 0.5s ease-in-out;   */
+    /* Use these properties below??? */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+button:hover {
+    background-color: #7C7DCB;
+    color: #F1F0F4;
+    border: 3px solid #7C7DCB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-style: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    /* transition: background-color 0.5s ease-in-out;   */
+    /* Use these properties below??? */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+
+
+
+/* HEADER AND NAV styles */
+.logo {
+    margin-left: 2rem;
+    max-height: 75px;
+}
+
+.header {
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topNav {
+    align-items: flex-end;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.inline {
+    display: inline;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navLinks {
+    display: inline;
+    /* color: #333B7E;  */
+    /* color: #7C7DCB;  */
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;  
+    vertical-align: middle; 
+    /* margin-top: 0.5rem;  */
+}
+
+a {
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    text-decoration: underline;
+    text-decoration-color: #7C7DCB;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
+}
+
+#navConnect {
+    text-decoration: underline;
+    text-decoration-color: #7C7DCB;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
+}
+
+
+/*STICKY HEADER styling */
+.sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%;  */
+    width: 98.5%; 
+}
+  
+
+
+/* CONNECT FORM Section - body content  */
+
+#connectContent {
+    background-color: #000000;
+    padding-top: 8rem;  
+    padding-bottom: 4rem;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+form {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 12rem;
+}
+
+#connectButton {
+    cursor: pointer;
+}
+
+
+
+/* My custom modal - The background */
+.modal {
+    display: none;  /* hidden by default */
+    position: fixed;
+    z-index: 1;
+    padding-top: 8rem;   /* modal location */
+    /* How do I make this modal center responsively to any screen size?  */
+    width: 100%; 
+    height: 20%; 
+    left: 8%;
+    right: 8%; 
+    top: 25%; 
+    transform: (-50%, -50%);
+    overflow: auto;     /* enables scroll if needed */
+    background-color: rgb(0, 0, 0);  /* fallback color */
+    background-color: rgba(0, 0, 0, 0.4);  /* black BG with opacity */
+    /* vertical-align: bottom; */
+    text-align: center;
+    margin: auto;
+}
+
+/* My custom modal - The modal content dialog */
+#modalConnect {
+    /* display: block;  Leave this out because it disrupts the code - is in conflict with class of modal display: none */ 
+    background-color: #392F80;
+    border-radius: 6px;
+    margin: auto;
+    padding: 4rem;
+    width: 60%;
+    align-items: center; 
+    vertical-align: middle;
+}
+
+.h3modal {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.pModal {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -2%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+/* The Close button is an X coded as &times; */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+
+
+
+
+
+/* FOOTER Styles */
+.footer {
+    /* background-color: #7C7DCB; */
+    background-color: #000000; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-template-rows: 1.75fr 0.25fr;
+    grid-template-areas: 
+        "footerh1 connectIcons footerResume"
+        "#footerText #footerText #footerText"
+        ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .footerh1 {
+    grid-area: footerh1;
+} */
+
+.connectIcons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    /* grid-area: connectIcons; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerh1 {
+    color: #F1F0F4;
+    text-align: left;
+    /* line-height: 16px; */
+    padding-top: 2rem;
+    padding-left: 10%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.footerh6 {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+#footerText {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+/* Why can't I get this p id div to center across the entire width?  */
+}
+
+.emailWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.emailText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+.emailText:hover {
+    color: #7C7DCB;
+}
+
+.LinkedInWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.LinkedInText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+#buttonResume {
+    margin-left: 3.75rem;
+}
+
+.footer button {
+/* I want to center this in the div */
+    border: 3px solid #ECE5BA;
+    border-radius: 4px;
+    color: #ECE5BA;
+    box-sizing: border-box;
+    /* background-color: #7C7DCB;  */
+    background-color: #000000; 
+    margin-top: 1rem;
+}
+
+.footer button:hover {
+    background: #F1F0F4;
+    color: #7C7DCB;
+    border-color: #F1F0F4;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+
+
+
+

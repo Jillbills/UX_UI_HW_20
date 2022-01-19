@@ -5,8 +5,8 @@ color: #c61f4b;
 color: #4C555D;  made this     color: #6b7680; a brighter gray too*/
 
 h1 {
-    /* color: #7C7DCB;  */
-    color: #194d6d;
+    color: #7C7DCB; 
+    /* color: #194d6d;  */
     font-family: 'Oswald', sans-serif;
     /* original font size was 76px  */
     font-size: 108px;
@@ -22,8 +22,8 @@ h1 {
 }
 
 h2 {
-    /* color: #B0B3C3;  */
-    color: #6b7680;
+    color: #B0B3C3; 
+    /* color: #6b7680;  */
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     /* Original was font-weight: 800;  */
@@ -36,8 +36,8 @@ h2 {
 }
 
 h3 {
-    /* color: #B0B3C3;  */
-    color: #6b7680;
+    color: #B0B3C3; 
+    /* color: #6b7680;  */
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -56,8 +56,8 @@ h4 {
 }
 
 h6 {
-    /* color: #7C7DCB;  */
-    color: #c61f4b;
+    color: #7C7DCB; 
+    /* color: #c61f4b;  */
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -84,8 +84,8 @@ li {
 }
 
 .header3 {
-    /* color: #B0B3C3;  */
-    color: #6b7680;
+    color: #B0B3C3; 
+    /* color: #6b7680;  */
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -93,8 +93,8 @@ li {
 }
 
 .header4 {
-    /* color: #7C7DCB;  */
-    color: #c61f4b;
+    color: #7C7DCB; 
+    /* color: #c61f4b;  */
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -104,8 +104,8 @@ li {
 
 strong {
     
-    /* color: #7C7DCB;  */
-    color: #c61f4b;
+    color: #7C7DCB; 
+    /* color: #c61f4b;  */
 }
 
 .formText {
@@ -197,8 +197,7 @@ button:hover {
     background-color: #000000;
 }
 
-#UXresearch, #definition, #ideation, #prototyping, #usabilityTesting, #finalPrototype, #conclusion {
-    padding-top: 8rem;
+section {
     padding-bottom: 8rem;
 }
 
@@ -208,7 +207,7 @@ button:hover {
 
 .row {
     background-color: #000000; 
-    padding-bottom: 8rem;
+    /* padding-bottom: 8rem;  */
 }
 
 .card-body p {
@@ -379,40 +378,48 @@ a {
     padding-bottom: 2rem;
 }
 
+.redlineNumbers {
+    color: #EE0303;
+}
+
 .EYblueColorblock {
-    color: #002a44;
+    background-color: #002a44;;
     width: 100%;
     height: 8rem;
-    border: 2px solid blue;
 }
 
 .EYpinkColorblock {
-    color: #c61f4b;
+    background-color: #c61f4b;
     width: 100%;
     height: 4rem;
-    border: 2px solid magenta;
 }
+
+.insightsList {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 
 
 /* DEFINITION section  */
 /* To help visualize grid - Remove me */
-.col-6 {
-    border: 2px solid red;
+.definitionCol1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.col-1 {
-    border: 2px solid blue;
+.definitionInsight {
+    border: yellowgreen;
+    align-items: flex-end;
+    justify-content: right;
 }
-
-.col-5 {
-    border: 2px solid greenyellow;
-} */
 
 
 /* Doesn't appear to be highlighting this section - need to target section h1  */
 .sectionHeader {
-    border: 3px solid yellow
+    border: 3px solid yellow;
     margin-block-end: 0;
     margin-block-start: 0;
     padding-bottom: 4rem;
@@ -425,12 +432,42 @@ a {
 
 /* IDEATION section with Storyboard on carousel. 
     Accordian for Key Features?  */
+#carouselExampleIndicators {
+    padding-bottom: 1rem; 
+    }
+
+.carousel-indicators {
+    transform: scale(2);
+}
+
 .scrollIcon {
     transform: rotate(-90deg);
 }
 
+.carousel-item {
+    width: 100vw;
+}
 
+.carouselContainer {
+    padding-bottom: 4rem;
+} 
 
+.carousel-inner {
+    width: 100vw;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    transform: scale(3);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    border: none; 
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    border: none;
+    background-color: transparent;
+}
 
 
 
@@ -467,8 +504,8 @@ a {
 }
 /* link Dancing Script Google font to change to modern script instead of cursive  */
 .scriptInsight {
-    /* color: #7C7DCB;  */
-    color: #c61f4b;
+    color: #7C7DCB; 
+    /* color: #c61f4b;  */
     font-family: 'Dancing Script';
     font-style: bold;
     font-size: 32px;
@@ -481,6 +518,67 @@ a {
 }
 
 /* FINAL PROTOTYPE section  */
+.prototypeButtons {
+    padding-left: 10%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 160px;
+}
+
+.mobileMockup {
+    position: absolute;
+    right: 0px;
+    margin-right: 2%;
+    margin-top: 2rem;
+    transform: scale(0.75);
+}
+
+/* .h1FinalPrototype {
+    padding-top: 8rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 1rem;
+}
+
+.finalPrototypeGrid {
+    display: grid;
+    position: relative;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 720px 280px;
+    grid-template-areas: 
+    "desktopMockup desktopMockup"
+    "prototypeButtons mobileMockup"
+    ;
+    padding-bottom: 4rem;
+}
+
+.desktopMockup {
+    position: relative;
+    z-index: -1;
+    transform: scale(0.75);
+}
+
+.mobileMockup {
+    position: absolute;
+    right: 0px;
+    margin-right: 2%;
+    margin-top: 2rem;
+    transform: scale(0.75);
+}
+
+.prototypeButtons {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 20%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 160px;
+} */
+
 
 
 

@@ -2,48 +2,83 @@
 <html>
 
 <head>
-    <title>Jill Van's UX Design - Case Study - Edúcate Ya</title>
+    <title>Jill Van's UX Design Portfolio Homepage</title>
 <!-- Meta code  -->
-    <meta name="description" content="Jill Van's UX Design - Case Study - Edúcate Ya" />
-    <meta name="keywords" content="UX Design, UX/UI, user experience, digital portfolio, online portfolio, Educate Ya case study" />
+    <meta name="description" content="Jill Van's UX Design Portfolio" />
+    <meta name="keywords" content="UX Design, UX/UI, user experience, digital portfolio, online portfolio" />
     <meta http-equiv="author" content="Jill Van" />
     <meta http-equiv="content-language" content="en-us" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap responsive meta tag  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Linking files  -->
     <!-- Bootstrap CSS file  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
 
     <!-- Original linked file before homepage was renamed <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/portfolioHomeStyle.css">
 
 <!--Codes to embed Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans&family=Oswald:wght@700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Jura&family=Open+Sans&family=Oswald:wght@700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet"> 
 </head>
 
 
-<body>
 
-<!-- v1 Sticky Header with topNav -->
+<body>
+<!-- v1 Header with topNav located at top of homepage-->
+    <!-- <header class="header" id="myHeader">
+        <img class="logo" src="images/LogoJVanRound.svg" alt="Jill Van's logo" width="150px" height="75px">
+        <div class="topNav">
+            <nav class="inline">
+                <ul>
+                    <a href="#about"><li class="navLinks">About</li></a>
+                    <a href="#work"><li class="navLinks">Work</li></a>
+                    <a href="#connect"><li class="navLinks">Connect</li></a>
+                </ul>
+                <br>
+            </nav>
+        </div>
+    </header> -->
+
+
+
+<!--HERO Section-->
+    <section class="heroContent">
+        <!-- Animated elements still in the works  -->
+        <!-- <div class="heroLogo">
+            <img id="animateLogo" src="./images/LogoJVanRoundDark.svg" alt="Hi! I'm Jill Van hero image">
+        </div> -->
+        <!-- <div class="heroCopy">
+            <img src="./images/Hero/HeroOverlayCopy.png" 
+            width="500px" height="325px">
+        </div>  -->
+
+        <!-- Static elements  -->
+        <div class="heroImg">
+            <img src="./images/Hero/HeroDefault.png" class="hero" alt="Hi! I'm Jill Van. Here's my hero image">
+        </div>
+
+        <div class="scrollIcon">
+            <img src="images/union.png" alt="scroll down icon" width="60px" height="26px">
+        </div>
+    </section>
+
+
+
+<!-- Sticky Header with topNav -->
 <header class="header" id="myHeader">
     <!-- Original logo width="150px" height="75px"  -->
-    <a href="./PortfolioHomepage/index.html"><img class="logo" src="./images/LogoJVanRoundDark.svg" alt="Jill Van's logo"></a>
+    <a href="./portfolioHomeIndex.html"><img class="logo" src="images/LogoJVanRoundDark.svg" alt="Jill Van's logo"></a>
     <div class="topNav">
         <nav class="inline">
             <ul>
-                <!-- ??? These aren't working yet. How do I link to my other webpage's anchor within this same folder???
-                <a href="indexForm.asp"><li class="navLinks">Connect</li></a> -->
                 <a href="#about"><li class="navLinks">About</li></a>
                 <a href="#work"><li class="navLinks">Work</li></a>
                 <a href="./indexForm.html"><li class="navLinks" id="navConnect">Connect</li></a>
+                <!-- ??? How do I link to my other webpage's anchor within this same folder???
+                <a href="indexForm.asp"><li class="navLinks">Connect</li></a> -->
             </ul>
             <br>
         </nav>
@@ -53,581 +88,215 @@
 
 
 <div class="content">
-<h1>Edúcate Ya Case Study</h1>
-
-
-<!-- Hero Intro, Project Overview, & Our Team sections in a grid  -->
-<!-- <Built using a combination of Bootstrap 4's col grid system with Text with link cards and horizontal image cards.  -->
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="card mb-3 border-0">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <!-- Original size width="595px" height="350px"  -->
-                        <img id="EYprototypeMockup" src="./images/caseStudy/EducateYa/EYRWDMockupSmall.png" width="100%" alt="Edúcate Ya showcase redesign image">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card border-0">
-                            <div class="card-body">
-                              <h3 class="card-title">What is Edúcate Ya?</h3>
-                              <h6 class="card-subtitle mb-2">Portland, OR based Non-Profit Organization</h6>
-                              <p class="card-text">We began by analyzing their website to learn more about the non-profit organization and to identify areas that were most in need of a redesign.</p>
-                              <a href="#"></a><button type="button">View Mobile Prototype &nbsp;&nbsp;</button></a>
-                                <br><br>
-                              <a href="#"><button type="button">View Desktop Prototype</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-12">
-            <div class="card border-0">
-                <div class="card-body">
-                    <h3 class="card-title text-center">Project Overview</h3>
-                    <h6 class="card-subtitle mb-2">The Problem</h6>
-                    <p class="card-text">Edúcate Ya hasn’t been reaching it’s targeted audience. Their homepage averaged an <strong>85% bounce rate</strong> in Oct to Nov 2021, which is nearly twice as high as a typical website bounce rate.</p>
-                    <h6 class="card-subtitle mb-2">The Solution</h6>
-                    <p class="card-text">By redesigning Edúcate Ya’s website to be more visually engaging, we can help improve usability, navigation, and user engagement.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <div class="card-body">
-                <h3 class="card-title">Our Team</h3>
-                <h6 class="card-subtitle mb-2">Manny McIvor, UX/UI Design student,</h6>
-                <h6 class="card-subtitle mb-2">Carlos Prieto, UX/UI Design student,</h6>
-                <h6 class="card-subtitle mb-2">Jill Van, UX/UI Design student + Project Manager</h6>
-                <br>
-                <p class="card-text">We actively collaborated throughout the entire design process. As project manager, I facilitated the initial contact with the non-profit organization and setup stakeholder interviews. I contributed heavily to the UX Research phase by:</p>
-                <p class="card-text">
-                    <ul>
-                        <li>Completing a <strong>Heuristic Evaluation</strong> of the current website</li>
-                        <li>Gathering interview insights, organizing into an <strong>Diagram</strong></li>
-                        <li>Summarizing our <strong>Competitor Analyses</strong></li>
-                        <li>Developing an <strong>Empathy Map</strong></li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <div class="col">
-            <p class="card-text">I also developed a <strong>UX Hypothesis,</strong> started the <strong>Information Architecture Sitemap,</strong> and built out a lot of the <strong>Mobile Mid-fi Wireframes</strong> and the <strong>styling and outline for our Case Study slides.</strong>
-            </p><br>
-            <p>My teammates did a fabulous job creating a <strong>UX Scenario</strong> and portraying it through a well illustrated <strong>Storyboard</strong>. 
-                Manny took the lead on the <strong>Style Guide</strong> and <strong>menu Animation</strong> while Carlos ensured that our prototype was <strong>Responsive Design</strong> and he did the <strong>English - Spanish Translations.</strong> Together <strong>we utilized our skills and strengths to create a sucessful solution to our problem.</strong> 
-            </p>
-        </div>
-    </div>
-
-</div>
-
-
-<!-- Design Tools section -->
-<section class="designTools">
-    <h3 class="text-left">Design Tools</h3>
-    <div class="designToolsIcons text-left">
-        <img src="./images/designToolsIcons/figmaIcon.png" alt="Figma icon" width="100px" height="128.68px"> &nbsp&nbsp&nbsp
-        <img src="./images/designToolsIcons/miroIcon.png" alt="Miro icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
-        <img src="./images/designToolsIcons/inVisionIcon.png" alt="InVision icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
-        <img src="./images/designToolsIcons/googleIcon.png" alt="Google icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
-        <img src="./images/designToolsIcons/trelloIcon.png" alt="Trello icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
-        <img src="./images/designToolsIcons/photoshopIcon.png" alt="Photoshop icon" width="119px" height="128px">
-    </div>
-</section>
-
-
-
-<!-- Design Phases section -->
-<section class="designPhases">
-    <h1 class="text-center">Design Phases</h1>
-    <div class="designPhasesIcons">
-        <div class="phaseIcon01">
-            <a href="#UXresearch"><img src="./images/designPhases/IconUXresearch.png" alt="UX Research icon" width="110px" height="128.68px"></a> &nbsp&nbsp&nbsp
-        </div>
-        <div class="phaseIcon02">
-            <a href="#definition"><img src="./images/designPhases/IconDefinition.png" alt="Definition icon" width="100px" height="128.68px"></a> &nbsp&nbsp&nbsp
-        </div>
-        <div class="phaseIcon03">
-            <a href="#ideation"><img src="./images/designPhases/IconIdeation.png" alt="Ideation icon" width="100px" height="128.68px"></a> &nbsp&nbsp&nbsp
-        </div>
-        <div class="phaseIcon04">
-            <a href="#prototyping"><img src="./images/designPhases/IconPrototyping.png" alt="Prototyping icon" width="100px" height="128.68px"></a> &nbsp&nbsp&nbsp
-        </div>
-        <div class="phaseIcon05">
-            <a href="#usabilityTesting"><img src="./images/designPhases/IconUserTesting.png" alt="User Testing icon" width="110px" height="128.68px"></a> &nbsp&nbsp&nbsp
-        </div>
-        <div class="phaseIcon06">
-            <a href="#finalPrototype"><img src="./images/designPhases/IconFinalPrototype.png" alt="Final Prototype icon" width="125px" height="128.68px"></a> &nbsp&nbsp&nbsp 
-        </div>
-    </div>
-</section>
-
-
-
-<!-- UX RESEARCH section -->
-<!-- Bootstrap 4 grid system with cards, images, and rows and columns nested inside rows -->
-<section id="UXresearch">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-left">UX Research</h1>
-        </div>
-        <div class="row">
-            <div class="card mb-3 border-0">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <img id="EYheuristicsTop" src="./images/caseStudy/EducateYa/EYheuristicsTopHome.png" width="100%" alt="Edúcate Ya top section of original homepage">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card border-0">
-                            <div class="card-body">
-                              <h3 class="card-title">Heuristic Evaluation of Current Website</h3>
-                              <p class="card-text">We began by analyzing the website to learn more about the non-profit organization and to identify areas that were most in need of a redesign.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <img src="./images/caseStudy/EducateYa/EYheuristicsCenterHome.png" width="100%" alt="Center section of original Edúcate Ya homepage">
-                </div>
-                <div class="row">
-                    <img src="./images/caseStudy/EducateYa/EYheuristicsFooter.png" width="100%" alt="Footer of original Edúcate Ya homepage">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card-body">
-                    <h3 class="card-title">Examples Redlined on Homepage</h3>
-                    <h6 class="card-subtitle mb-2">01</h6>
-                    <p class="card-text">Top navbar needs more color contrast and hierarchy. 
-                        Too many primary categories - overwhelms users</p>
-                    <h6 class="card-subtitle mb-2">02</h6>
-                    <p class="card-text">Language toggle should be at top for user control & freedom - make it more prominent</p>
-                    <h6 class="card-subtitle mb-2">03</h6>
-                    <p class="card-text">Italic font appears to be randomly used here</p>
-                    <h6 class="card-subtitle mb-2">04</h6>
-                    <p class="card-text">Text is too small to read. It reads like a social media feed - 
-                        Looks fine on mobile version only, but not desktop design</p>
-                    <h6 class="card-subtitle mb-2">05</h6>
-                    <p class="card-text">Increase hierarchy of this section - Feature the reviews to 
-                        gain credibility for the organization and increase interest in 
-                        their cause</p>
-                    <h6 class="card-subtitle mb-2">06</h6>
-                    <p class="card-text">Could be nested as a modal or placed elsewhere instead of 
-                        in the footer</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card border-0">
-                    <div class="card-body">
-                      <h3 class="card-title">Research Plan</h3>
-                        <p class="card-text">We interviewed potential users of the website and stakeholders to determine what they would like to see on the website. Then we used those insights to design the best possible website for the organization.
-                        <br><br>Our UX Research team conducted 3 stakeholder interviews and 4 interviews with potential users. It was a combination of semi-structured group and 1:1 interviews conducted by phone, over social media, and over Zoom.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card border-0">
-                    <div class="card-body">
-                      <h3 class="card-title">Proto Persona</h3>
-                        <p class="card-text">What might a typical user of Edúcate Ya’s services look like? Our team envisioned “Oscar” as described below.
-                        <br><br>After completing thorough UX Research, we later developed an Empathy Map to represent our how our typical user had evolved. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <img id="protoPersonaImg" src="./images/caseStudy/EducateYa/EYprotoPersona.png" width="100%" alt="Edúcate Ya user proto persona">
-            </div>
-        </div>
-        <div class="row">
-            <div class="card border-0">
-                <div class="card-body">
-                  <h3 class="card-title">Key User Insights</h3>
-                    <p class="card-text">More data was collected, organized into an Affinity Diagram. Here were the highlights.
+<!--ABOUT Section-->
+    <section id="about">
+        <div class="aboutIntro">
+            <h1>About</h1>
+            <div class="aboutContainer">
+                <!-- <img class="profilePic" src="images/profilePicPlaceholder.png" alt="profilePic"> Placeholder div for img-->
+                <div class="aboutCopy">
+                    <p><strong class="header4">Hi! I'm Jill Van, <br></strong><strong class="header3">UX Designer</strong>with an <strong>extensive healthcare background in Occupational Therapy,</strong> specializing in cardiology. Certificate in UX/UI Design from University of Oregon’s Bootcamp. Bachelor’s of Science in Occupational Therapy from Eastern Washington University.
+                    <br>
+                    <br>
+                    <strong>Dedicated, self-directed, diligent worker.</strong> Works well independently or collaborating in a team. <strong>Organized yet flexible, creative thinker.</strong> Other designers recognize my <strong>forward-thinking</strong> and <strong>strong skills in communicating a vision to create positive change.</strong>
+                    <br>
+                    <br>
+                    I also <strong>co-own, operate a small business on Etsy, designing and creating vinyl decals.</strong> Additional roles: <strong>customer service, </strong>bookkeeping. <strong>Love of art and design </strong>motivated my career shift from healthcare to UX Design. My <strong>passion for enhancing user experiences and proactive problem solving</strong> make me a <strong>valuable addition to any team.</strong>
                     </p>
+                    <button type="button" class="button">Resume</button>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <!-- How do I create a line or block of color?  -->
-            <div class="EYblueColorblock" width="100%">
+
+
+        <div class="myEntrepreneurVenture">
+            <h2>My Entrepreneur Venture</h2><br>
+            <div class="ventureContainer">
+                <div class="solImagery">
+                    <img id="SOLdecalImg" src="./images/SOLdecals.png" alt="Stick Out Loud decals">  <!-- width="640px" height="226px" -->
+                    <!-- Opens StickOutLoud website URL in a new tab when clicking this button (no modal) -->
+                    <button id="SOLbutton" type="button" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Explore</button>  
+                    <!-- <button id="SOLbutton" type="button" data-toggle="modal" data-target="#SOLmodal2">Explore</button>  -->
+                </div>
+                <div class="solCopy">
+                    <img id="etsyHeader" src="./images/SOLonEtsy.png" alt="Stick Out Loud Custom vinyl decals on Etsy" width="397px" height="92px"><br>
+                    <p>Our mission is to provide a means for others to express themselves, evoke conversation, and inspire positivity in our community as our decals help unite people with common interests. We love adventure and how exploring the PNW helps us achieve mental clarity. Together let's turn Sorry Outta Luck into Stick Out Loud (SOL) and feed it a positive soul!</p>
+                </div>
             </div>
-            <ul>
-                <li>Until April 2022, Edúcate Ya is <strong>offering free English language classes to Latinos.</strong> This should be more prominent on the website - <strong>NONE of the potential users we interviewed noticed it.</strong></li>
-                <br>
-                <li>Edúcate Ya relies on donor funding. The website has a <strong>modal pop-up on entry, but the timing is not ideal.</strong> The user should not need to look for the call to action (CTA).</li>
-                <br>
-                <li>Provide users <strong>control to select a preferred language</strong> that switches the entire copy to that one language consistently throughout the website.</li>
-                <br>
-                <li>Users liked how easy it was to find information on the website. Build upon this by improving the visual design & strategically highlighting the organization’s goals.</li>
-            </ul>
-            <div class="EYpinkColorblock" width="100%">
-            </div>
-        </div>
-    </div>
-</section>
 
-
-
-<!-- DEFINITION section -->
-<!-- v3 Bootstrap 4 grid work with cards and image within -->
-<section id="definition">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="sectionHeader text-left">Definition</h1>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="card " style="width: 100%">
-                        <div class="card-body">
-                            <h3 class="card-title">Problem Statement</h3>
-                            <p class="card-text">By redesigning Edúcate Ya’s website to be more visually engaging, we can help increase engagement with and participation in the organization’s classes and events. 
-                                <br><br>
-                                We also believe that a website that is easier to maintain for the organization and more delightful for users to use will result in an increase in donations to Edúcate Ya.
-                            </p>
-                        </div>
+            <!-- Modal warning user that they will be taken offsite. Includes button to link to other website in new tab or close modal to return to homepage.  -->
+            <!-- <div class="modal fade" id="SOLmodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalCenterTitleSOL">Warning:</h5>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="card " style="width: 100%">
-                        <div class="card-body">
-                            <h3 class="card-title">UX Hypothesis</h3>
-                            <p class="card-text">The primary user of Edúcate Ya’s website is not typically the direct user of their education and leadership programs. 
-                                <br><br>
-                                Instead, the primary user might be someone who has better Internet access and proficiency navigating online resources that tells the direct user by word of mouth or refers them to the website.
-                            </p>
-                        </div>
+                    <div class="SOLmodal-body">
+                        <p>You’re about to encounter fabulous decals offsite.<br>
+                        Hope to see you again soon!</p>
                     </div>
-                </div>
-                <div class="row">
-                    <h6 class="text-right">This hypothesis later
-                        <br>proved to be true!
-                    </h6>
-                </div>
-            </div>
-            <div class="col-1">
-                <!-- Whitespace -->
-            </div>
-            <div class="col-5">
-                <img src="./images/caseStudy/EducateYa/lightbulb.png" alt="holding lightbulb">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-<!-- v2 <div class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-left">Definition</h1>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <div class="card " style="width: 100%">
-                <div class="card-body">
-                    <h3 class="card-title">Problem Statement</h3>
-                    <p class="card-text">By redesigning Edúcate Ya’s website to be more visually engaging, we can help increase engagement with and participation in the organization’s classes and events. 
-                        <br><br>
-                        We also believe that a website that is easier to maintain for the organization and more delightful for users to use will result in an increase in donations to Edúcate Ya.
-                    </p>
-                </div>
-                <div class="card " style="width: 100%">
-                    <div class="card-body">
-                        <h3 class="card-title">UX Hypothesis</h3>
-                        <p class="card-text">The primary user of Edúcate Ya’s website is not typically the direct user of their education and leadership programs. 
-                            <br><br>
-                            Instead, the primary user might be someone who has better Internet access and proficiency navigating online resources that tells the direct user by word of mouth or refers them to the website.
-                        </p>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Check it out</button>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-1">
-
-        </div>
-        <div class="col-5">
-            <img src="./images/caseStudy/EducateYa/lightbulb.png" alt="holding lightbulb">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <h6 class="text-right">This hypothesis later
-                <br> proved to be true!</h6>
-        </div>
-    </div>
-</div> -->
-
-
-
-<!-- IDEATION section with Storyboard on carousel. 
-    Accordian for Key Features?  -->
-<!-- Carousel with controls & indicators built into Bootstrap 4 grid system. Also drop down action menus. -->
-<section id="ideation">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-left">Ideation</h1>
-        </div>
-        <div class="row">
-            <div class="card " style="width: 100%">
-                <div class="card-body">
-                    <h3 class="card-title">UX Scenario & Storyboarding</h3>
-                    <p class="card-text">Here comes the fun part! Let creativity flow. Added bonus that my two teammates were fabulous illustrators as well!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/caseStudy/EducateYa/EYstoryboard0.png" class="d-block w-100" alt="Storyboard illustration 1. Oscar the line cook is having another busy day at work. Fed up with busy work, he decides he wants a change!">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/caseStudy/EducateYa/EYstoryboard1.png" class="d-block w-100" alt="Storyboard illustration 2. He remembers an organization he heard of from a friend who invited him to one of their events. After work, he gets on his computer...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/caseStudy/EducateYa/EYstoryboard2.png" class="d-block w-100" alt="Storyboard illustration 3 shows silouette of Oscar looking at computer screen. ... and discovers that they're offering free English classes!">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/caseStudy/EducateYa/EYstoryboard3.png" class="d-block w-100" alt="Storyboard illustration 4 of a cartoon boy's face. He's holding up two fingers">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/caseStudy/EducateYa/EYstoryboard4.png" class="d-block w-100" alt="Storyboard illustration 5. Oscar is now a successful business owner, running his own food truck! He gives back to Educate Ya, hoping his gift will help someone else.">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </button>
-              </div>
-        </div>
-        <div class="row">
-                <!-- Add ideation and dropdown of top featured  -->
-                <!-- Example single danger button -->
-            <div class="btn-group">
-                <button type="button" class="btn btn-info btn-lg">
-                    Solutions Ideation
-                </button>
-            </div>
-            <div class="scrollIcon">
-                <img src="./images/union.png" alt="icon arrow pointing right" width="60px" height="26px">
-            </div>
-            <div class="btn-group">
-                <button type="button" class="btn btn-secondary btn-lg">
-                    Feature Prioritization Matrix
-                </button>
-            </div>
-            <div class="scrollIcon">
-                <img src="./images/union.png" alt="icon arrow pointing right" width="60px" height="26px">
-            </div>
-            <div class="btn-group">
-                <button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    View Top 5 Features!
-                </button>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">1. Feature free English classes</a>
-                <a class="dropdown-item" href="#">2. Improve readability</a>
-                <a class="dropdown-item" href="#">3. Highlight donation button</a>
-                <a class="dropdown-item" href="#">4. Add class sign up calendar</a>
-                <a class="dropdown-item" href="#">5. Easy access to language toggle</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-</section>
+              </div> -->
 
 
-<!-- PROTOTYPING section  -->
-<!-- Bootstrap 4 grid with cards and images -->
-<section id="prototyping">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-left">Prototyping</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-10">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <h3 class="card-title">Card Sorting,
-                            <br>Information Architecture,
-                            <br>User Flow Diagram
-                        </h3>
-                        <p class="card-text">Simplify! We cut the number of primary categories in the navbar down to nearly half by using our information architechture skills to redesign a sitemap.   
-                            <br><br>Here’s an example of a simplified user flow for the task of “scheduling an English class.” It doesn’t need to be complicated. Sometimes less is more.
-                        </p>
-                        <a href="#"></a><button type="button">View User Flow Diagram</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-10">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <h3 class="card-title">Early Sketches,
-                            <br>Mid-Fi Wireframes with 
-                            <br>Responsive Web Design,
-                            <br>UI Style Guide</h3>
-                        <p class="card-text">Our ideas began to unfold and come to life. My teammate created this style guide to represent the different design elements that we intended to implement in our prototype and share why they were chosen.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="./images/caseStudy/EducateYa/EYPaperSketches.png" id="EYpaperSketches" alt="Paper sketches" width="80%">
-            </div>
-            <div class="col-lg-6">
-                <img src="./images/caseStudy/EducateYa/EYMid-FiWireframes.png" id="EYwireframes" alt="Mid-Fi wireframes of desktop design" width="80%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-10">
-                <img src="./images/caseStudy/EducateYa/EYUIStyleGuide.png" id="EYwireframes" alt="UI Style Guide" width="80%">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- USABILITY TESTING section in 2x2 grid -->
-<section id="usabilityTesting">
-    <h1 class="text-left">Usability Testing</h1>
-    <!-- Bootstrap 4 col system 2x2 grid = "container" -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <div class="card border-0" style="width: 100%">
-                    <div class="card-body">
-                        <h3 class="card-title">Usability Testing Plan,<br>
-                        User Testing Insights,<br>
-                        Reiterate Prototypes</h3>
-                        <p class="card-text">User testing an easy but valuable way to gather insights on designs that designers often overlook. Sometimes I need to step back and view the designs from another perspective ... or just recruit users to test. For Edúcate Ya’s website redesign, we tested on a dozen willing users.  
-                            <br><br>
-                            Here are the highlights.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <img src="images/caseStudy/EducateYa/EYdesktopTestIterations.png" class="usabilityTestingDesktop" alt="Desktop prototype iterations based on user tests" width="100%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <img src="images/caseStudy/EducateYa/EYmobileTestIterations.png" class="usabilityTestingMobile" alt="Mobile prototype iterations based on user tests" width="100%">
-            </div>
-            <div class="col-6">
-                <p class="scriptInsight text-center">It is always intriguing to see<br>what discoveries will be made<br>during usability testing.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- FINAL PROTOTYPE section -->
-<section id="finalPrototype">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-left">Final Prototype</h1>
-            <h3>Responsive Web Redesign Compositions</h3>
-        </div>
+        </div> 
             
-</section>
 
 
-<!-- CONCLUSION section -->
-<section id="conclusion">
-    <h1 class="text-left">Conclusion</h1>
-    <!-- Bootstrap 4 col system 2x2 grid = "container" -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="card-body">
-                    <h3 class="card-title">Reflections</h3>
-                    <p class="card-text">
-                        <ul>
-                            <li>Learning more about the actual users (18 to 24 year old demographic) from the Google Analytics report helped us redesign the style of the Edúcate Ya website to appeal to the appropriate targeted audience. </li>
-                            <br>
-                            <li>It was very rewarding to see that the stakeholders began implementing some of our redesign recommendations soon after our team presented it to them!</li>
-                        </ul>
-                    </p>
+<!--Bootstrap grid v1 + Hover overlay images --> 
+        <div class="myPlayground">
+            <h2 class="h2r">My Playground</h2>
+            <div id="playgroundGrid">
+                <div class="row1">
+                    <div class="col01List">
+                        <div class="hobbiesList">
+                            <ul>
+                                <li>Warm beaches</li><br>
+                                <li>Music festivals</li><br>
+                                <li>Night scenes - I'm a night owl!</li><br>
+                                <li>Leisurely hikes</li><br>
+                                <li>2-night camping</li><br>
+                                <li>Watercolor painting</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col02topRow">
+                        <div class="familyPhoto"></div>
+                    </div> 
+                    <div class="col03topRow">
+                        <div class="thomasPhoto"></div>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="col25">
+                        <div class="Illenium"></div>
+                    </div>
+                    <div class="col25">
+                        <div class="lanternFestivalPic"></div>
+                    </div>
+                    <div class="col25">
+                        <div class="beachPic"></div>
+                    </div>
+                    <div class="col25">  
+                        <div class="wcPainting"></div>
+                    </div> 
                 </div>
             </div>
-            <div class="col">
-                <!-- Empty or fill with placeholder  -->
+        </div>
+
+
+
+        <div class="designSkills">
+            <h2 class="h2L">Design Skills</h2>
+            <!-- original width="1024px" height="457px" -->
+            <img id="UXskillsImg" src="./images/UXdesignSkillsWordCloudDark.png" alt="UX design skills word cloud"> 
+        </div>
+
+        <div class="designTools">
+            <h2 class="h2r">Design Tools</h2>
+            <div class="designToolsIcons">
+                <img src="./images/designToolsIcons/figmaIcon.png" alt="Figma icon" width="100px" height="128.68px"> &nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/miroIcon.png" alt="Miro icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/inVisionIcon.png" alt="InVision icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/googleIcon.png" alt="Google icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/trelloIcon.png" alt="Trello icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/photoshopIcon.png" alt="Photoshop icon" width="119px" height="128px">
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="card-body">
-                    <h3 class="card-title">Future Developments</h3>
-                    <p class="card-text">
-                        <ul>
-                            <li>Increase copy font size for mobile to at least 16px for better readability.</li>
-                            <br>
-                            <li>Implementing a “Back to Top” button, which is currently designed but not active yet.</li>
-                        </ul>
-                    </p>
-                </div>
+    </section>
+
+
+
+<!--WORK Section-->
+    <section id="work">
+        <h1>Work</h1>
+        <div class="EducateYa">
+            <!--Why is my mobile GIF not showing up? Does PNG files do GIF?-->
+            <!-- Ed.gov and Meerkat images are placeholders. To do: Replace Case Study cover slides with Mockup GIFS -->
+
+            <!-- had set width and height - original size width="595px" height="350px"  -->
+            <div class="educateYaPrototype">
+                <img id="EYmockup" src="./images/caseStudy/EducateYa/EYRWDMockupSmall.png" alt="Edúcate Ya showcase redesign image">
             </div>
-            <div class="col">
-                <h1 id="h1conclusion" class="text-right">Thank You</h1> 
-                <h4 id="h4conclusion" class="text-right">for viewing our case study!</h4>
+            <div class="educateYaSummary">
+                <h3>Edúcate Ya</h3>
+                <h6>Non-Profit Responsive Website Redesign</h6>
+                <br>
+                <p>Edúcate Ya is a non-profit organization that helps educate Latinos to achieve better jobs and access to healthcare. We redesigned the non-profit organization’s website to be responsive and visually engaging to improve usability, navigation, and user engagement.</p><br>
+                <button type="button">View Project</button>
             </div>
         </div>
-    </div>
+        <hr>
 
-</section>
+        <div class="DeptEd">
+            <div class="USdeptOfEducationSummary">
+                <h3>U.S. Dept of Education</h3>
+                <h6>Government Agency Responsive Website Redesign</h6>
+                <br>
+                <p>Responsive website redesign of the U.S. Department of Education website to create a modern, professional style that intuitively guides users through their task flows to explore the comprehensive website with ease.</p><br>
+                <button type="button">View Project</button>
+            </div>
+            <div class="edCoverImage">
+                <!-- had set width and height - original size width="595px" height="350px"  -->
+                <img id="edImg" src="./images/caseStudy/Edgov/EdgovCoverSlide.jpg" alt="U.S. Dept of Education showcase redesign image"> 
+            </div>
+        </div>
+        <hr>
+        <div class="Meerkat">
+            <div class="MeerkatCoverImage">
+            <!-- had set width and height - original size width="595px" height="350px"  -->
+            <img id="MeerkatImg" src="./images/caseStudy/Meerkat/MeerkatCoverSlide.jpg" alt="Meerkat showcase travel mobile app image">
+            </div>
+            <div class="MeerkatSummary">
+                <h3>Meerkat</h3>
+                <h6>Mobile Travel App Design Prototype</h6>
+                <br>
+                <p>Mobile travel app solution that tracks lines, shortening users’ airport wait times.</p><br>
+                <button type="button">View Project</button>    
+            </div>
+        </div>
+    </section>
 
 
 
-<!-- FOOTER -->
-<footer>
 
-</footer>
+
+<!--Footer-->
+    <footer>
+    <section class="footer">
+        <div>
+            <h1 class="footerh1">Let's</h1>
+            <h1 class="footerh1">Connect!</h1>
+        </div>
+
+        <div class="connectIcons">
+            <div class="emailWithIcon">
+                <a href="./indexForm.html"><img src="./images/emailIcon.png" alt="email icon" width="60px" height="42px"></a>
+                <a href="./indexForm.html"><h6 class="footerh6 emailText">Email</h6></a>
+            </div>
+
+            <div class="LinkedInWithIcon">
+                <img src="./images/LinkedInIcon.png" alt="LinkedIn icon" width="60px" height="55px">
+                <h6 class="footerh6 LinkedInText">LinkedIn</h6>
+            </div>
+        </div>
+
+        <div class="footerResume">
+            <h6 class="footerh6">Explore my work history</h6>
+            <button id="buttonResume" type="button">Resume</button>
+        </div>
+
+        <p id="footerText"> &copy Copyright 2022 - Designed by Jill Van</p>
+    </section>
+    </footer>
 
 </div> <!-- This closes my "content" class div which contains About to Connect sections and footer -->
-
 
 
 
