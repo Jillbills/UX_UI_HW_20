@@ -220,7 +220,7 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 10;
 }
 
 .topNav {
@@ -369,6 +369,29 @@ a {
 
 
 /* DEFINITION section  */
+/* To help visualize grid - Remove me */
+.col-6 {
+    border: 2px solid red;
+}
+
+.col-1 {
+    border: 2px solid blue;
+}
+
+.col-5 {
+    border: 2px solid greenyellow;
+} */
+
+/* Doesn't appear to be highlighting this section - need to target section h1  */
+.sectionHeader {
+    border: 3px solid yellow
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-bottom: 0;
+}
+
+
+
 
 
 
@@ -431,7 +454,7 @@ a {
 }
 
 #h4conclusion {
-    
+
 }
 
 
