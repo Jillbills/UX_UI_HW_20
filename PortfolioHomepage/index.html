@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jill Van's UX Design Portfolio Homepage</title>
+<!-- Meta code  -->
+    <meta name="description" content="Jill Van's UX Design Portfolio" />
+    <meta name="keywords" content="UX Design, UX/UI, user experience, digital portfolio, online portfolio" />
+    <meta http-equiv="author" content="Jill Van" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Linking files  -->
+    <!-- Bootstrap CSS file  -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
+
+    <!-- Original linked file before homepage was renamed <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/portfolioHomeStyle.css">
+
+<!--Codes to embed Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans&family=Oswald:wght@700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+<!-- v1 Header with topNav located at top of homepage-->
+    <!-- <header class="header" id="myHeader">
+        <img class="logo" src="images/LogoJVanRound.svg" alt="Jill Van's logo" width="150px" height="75px">
+        <div class="topNav">
+            <nav class="inline">
+                <ul>
+                    <a href="#about"><li class="navLinks">About</li></a>
+                    <a href="#work"><li class="navLinks">Work</li></a>
+                    <a href="#connect"><li class="navLinks">Connect</li></a>
+                </ul>
+                <br>
+            </nav>
+        </div>
+    </header> -->
+
+
+
+<!--HERO Section-->
+    <section class="heroContent">
+        <!-- Animated elements still in the works  -->
+        <!-- <div class="heroLogo">
+            <img id="animateLogo" src="./images/LogoJVanRoundDark.svg" alt="Hi! I'm Jill Van hero image">
+        </div> -->
+        <!-- <div class="heroCopy">
+            <img src="./images/Hero/HeroOverlayCopy.png" 
+            width="500px" height="325px">
+        </div>  -->
+
+        <!-- Static elements  -->
+        <div class="heroImg">
+            <img src="./images/Hero/HeroDefault.png" class="hero" alt="Hi! I'm Jill Van. Here's my hero image">
+        </div>
+
+        <div class="scrollIcon">
+            <img src="images/union.png" alt="scroll down icon" width="60px" height="26px">
+        </div>
+    </section>
+
+
+
+<!-- Sticky Header with topNav -->
+<header class="header" id="myHeader">
+    <!-- Original logo width="150px" height="75px"  -->
+    <a href="./portfolioHomeIndex.html"><img class="logo" src="images/LogoJVanRoundDark.svg" alt="Jill Van's logo"></a>
+    <div class="topNav">
+        <nav class="inline">
+            <ul>
+                <a href="#about"><li class="navLinks">About</li></a>
+                <a href="#work"><li class="navLinks">Work</li></a>
+                <a href="./indexForm.html"><li class="navLinks" id="navConnect">Connect</li></a>
+                <!-- ??? How do I link to my other webpage's anchor within this same folder???
+                <a href="indexForm.asp"><li class="navLinks">Connect</li></a> -->
+            </ul>
+            <br>
+        </nav>
+    </div>
+</header>
+
+
+
+<div class="content">
+<!--ABOUT Section-->
+    <section id="about">
+        <div class="aboutIntro">
+            <h1>About</h1>
+            <div class="aboutContainer">
+                <!-- <img class="profilePic" src="images/profilePicPlaceholder.png" alt="profilePic"> Placeholder div for img-->
+                <div class="aboutCopy">
+                    <p><strong class="header4">Hi! I'm Jill Van, <br></strong><strong class="header3">UX Designer</strong>with an <strong>extensive healthcare background in Occupational Therapy,</strong> specializing in cardiology. Certificate in UX/UI Design from University of Oregon’s Bootcamp. Bachelor’s of Science in Occupational Therapy from Eastern Washington University.
+                    <br>
+                    <br>
+                    <strong>Dedicated, self-directed, diligent worker.</strong> Works well independently or collaborating in a team. <strong>Organized yet flexible, creative thinker.</strong> Other designers recognize my <strong>forward-thinking</strong> and <strong>strong skills in communicating a vision to create positive change.</strong>
+                    <br>
+                    <br>
+                    I also <strong>co-own, operate a small business on Etsy, designing and creating vinyl decals.</strong> Additional roles: <strong>customer service, </strong>bookkeeping. <strong>Love of art and design </strong>motivated my career shift from healthcare to UX Design. My <strong>passion for enhancing user experiences and proactive problem solving</strong> make me a <strong>valuable addition to any team.</strong>
+                    </p>
+                    <button type="button" class="button">Resume</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="myEntrepreneurVenture">
+            <h2>My Entrepreneur Venture</h2><br>
+            <div class="ventureContainer">
+                <div class="solImagery">
+                    <img id="SOLdecalImg" src="./images/SOLdecals.png" alt="Stick Out Loud decals">  <!-- width="640px" height="226px" -->
+                    <!-- Opens StickOutLoud website URL in a new tab when clicking this button (no modal) -->
+                    <button id="SOLbutton" type="button" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Explore</button>  
+                    <!-- <button id="SOLbutton" type="button" data-toggle="modal" data-target="#SOLmodal2">Explore</button>  -->
+                </div>
+                <div class="solCopy">
+                    <img id="etsyHeader" src="./images/SOLonEtsy.png" alt="Stick Out Loud Custom vinyl decals on Etsy" width="397px" height="92px"><br>
+                    <p>Our mission is to provide a means for others to express themselves, evoke conversation, and inspire positivity in our community as our decals help unite people with common interests. We love adventure and how exploring the PNW helps us achieve mental clarity. Together let's turn Sorry Outta Luck into Stick Out Loud (SOL) and feed it a positive soul!</p>
+                </div>
+            </div>
+
+            <!-- Modal warning user that they will be taken offsite. Includes button to link to other website in new tab or close modal to return to homepage.  -->
+            <!-- <div class="modal fade" id="SOLmodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalCenterTitleSOL">Warning:</h5>
+                    </div>
+                    <div class="SOLmodal-body">
+                        <p>You’re about to encounter fabulous decals offsite.<br>
+                        Hope to see you again soon!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Check it out</button>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+
+        </div> 
+            
+
+
+<!--Bootstrap grid v1 + Hover overlay images --> 
+        <div class="myPlayground">
+            <h2 class="h2r">My Playground</h2>
+            <div id="playgroundGrid">
+                <div class="row1">
+                    <div class="col01List">
+                        <div class="hobbiesList">
+                            <ul>
+                                <li>Warm beaches</li><br>
+                                <li>Music festivals</li><br>
+                                <li>Night scenes - I'm a night owl!</li><br>
+                                <li>Leisurely hikes</li><br>
+                                <li>2-night camping</li><br>
+                                <li>Watercolor painting</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col02topRow">
+                        <div class="familyPhoto"></div>
+                    </div> 
+                    <div class="col03topRow">
+                        <div class="thomasPhoto"></div>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="col25">
+                        <div class="Illenium"></div>
+                    </div>
+                    <div class="col25">
+                        <div class="lanternFestivalPic"></div>
+                    </div>
+                    <div class="col25">
+                        <div class="beachPic"></div>
+                    </div>
+                    <div class="col25">  
+                        <div class="wcPainting"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="designSkills">
+            <h2 class="h2L">Design Skills</h2>
+            <!-- original width="1024px" height="457px" -->
+            <img id="UXskillsImg" src="./images/UXdesignSkillsWordCloudDark.png" alt="UX design skills word cloud"> 
+        </div>
+
+        <div class="designTools">
+            <h2 class="h2r">Design Tools</h2>
+            <div class="designToolsIcons">
+                <img src="./images/designToolsIcons/figmaIcon.png" alt="Figma icon" width="100px" height="128.68px"> &nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/miroIcon.png" alt="Miro icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/inVisionIcon.png" alt="InVision icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/googleIcon.png" alt="Google icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/trelloIcon.png" alt="Trello icon" width="100px" height="128px"> &nbsp&nbsp&nbsp&nbsp
+                <img src="./images/designToolsIcons/photoshopIcon.png" alt="Photoshop icon" width="119px" height="128px">
+            </div>
+        </div>
+    </section>
+
+
+
+<!--WORK Section-->
+    <section id="work">
+        <h1>Work</h1>
+        <div class="EducateYa">
+            <!--Why is my mobile GIF not showing up? Does PNG files do GIF?-->
+            <!-- Ed.gov and Meerkat images are placeholders. To do: Replace Case Study cover slides with Mockup GIFS -->
+
+            <!-- had set width and height - original size width="595px" height="350px"  -->
+            <div class="educateYaPrototype">
+                <img id="EYmockup" src="./images/caseStudy/EducateYa/EYRWDMockupSmall.png" alt="Edúcate Ya showcase redesign image">
+            </div>
+            <div class="educateYaSummary">
+                <h3>Edúcate Ya</h3>
+                <h6>Non-Profit Responsive Website Redesign</h6>
+                <br>
+                <p>Edúcate Ya is a non-profit organization that helps educate Latinos to achieve better jobs and access to healthcare. We redesigned the non-profit organization’s website to be responsive and visually engaging to improve usability, navigation, and user engagement.</p><br>
+                <button type="button">View Project</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="DeptEd">
+            <div class="USdeptOfEducationSummary">
+                <h3>U.S. Dept of Education</h3>
+                <h6>Government Agency Responsive Website Redesign</h6>
+                <br>
+                <p>Responsive website redesign of the U.S. Department of Education website to create a modern, professional style that intuitively guides users through their task flows to explore the comprehensive website with ease.</p><br>
+                <button type="button">View Project</button>
+            </div>
+            <div class="edCoverImage">
+                <!-- had set width and height - original size width="595px" height="350px"  -->
+                <img id="edImg" src="./images/caseStudy/Edgov/EdgovCoverSlide.jpg" alt="U.S. Dept of Education showcase redesign image"> 
+            </div>
+        </div>
+        <hr>
+        <div class="Meerkat">
+            <div class="MeerkatCoverImage">
+            <!-- had set width and height - original size width="595px" height="350px"  -->
+            <img id="MeerkatImg" src="./images/caseStudy/Meerkat/MeerkatCoverSlide.jpg" alt="Meerkat showcase travel mobile app image">
+            </div>
+            <div class="MeerkatSummary">
+                <h3>Meerkat</h3>
+                <h6>Mobile Travel App Design Prototype</h6>
+                <br>
+                <p>Mobile travel app solution that tracks lines, shortening users’ airport wait times.</p><br>
+                <button type="button">View Project</button>    
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--Footer-->
+    <footer>
+    <section class="footer">
+        <div>
+            <h1 class="footerh1">Let's</h1>
+            <h1 class="footerh1">Connect!</h1>
+        </div>
+
+        <div class="connectIcons">
+            <div class="emailWithIcon">
+                <a href="./indexForm.html"><img src="./images/emailIcon.png" alt="email icon" width="60px" height="42px"></a>
+                <a href="./indexForm.html"><h6 class="footerh6 emailText">Email</h6></a>
+            </div>
+
+            <div class="LinkedInWithIcon">
+                <img src="./images/LinkedInIcon.png" alt="LinkedIn icon" width="60px" height="55px">
+                <h6 class="footerh6 LinkedInText">LinkedIn</h6>
+            </div>
+        </div>
+
+        <div class="footerResume">
+            <h6 class="footerh6">Explore my work history</h6>
+            <button id="buttonResume" type="button">Resume</button>
+        </div>
+
+        <p id="footerText"> &copy Copyright 2022 - Designed by Jill Van</p>
+    </section>
+    </footer>
+
+</div> <!-- This closes my "content" class div which contains About to Connect sections and footer -->
+
+
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Bootstrap JavaScript  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- My JavaScript  -->
+<script src="./js/portfolioHomeindex.js">
+</script>
+
+</body>
+</html>

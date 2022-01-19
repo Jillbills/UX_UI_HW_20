@@ -11,8 +11,8 @@ h1 {
     margin-block-end: 0;
     margin-block-start: 0;
     padding-top: 8rem;
-    /* padding-bottom: 4rem;  */
-    padding-bottom: 8rem;
+    padding-bottom: 4rem; 
+    /* padding-bottom: 8rem;  */
 }
 
 h2 {
@@ -382,12 +382,13 @@ a {
     border: 2px solid greenyellow;
 } */
 
+
 /* Doesn't appear to be highlighting this section - need to target section h1  */
 .sectionHeader {
     border: 3px solid yellow
     margin-block-end: 0;
     margin-block-start: 0;
-    padding-bottom: 0;
+    padding-bottom: 4rem;
 }
 
 
@@ -397,6 +398,13 @@ a {
 
 /* IDEATION section with Storyboard on carousel. 
     Accordian for Key Features?  */
+.scrollIcon {
+    transform: rotate(-90deg);
+}
+
+
+
+
 
 
     /* 
@@ -433,7 +441,7 @@ a {
 /* link Dancing Script Google font to change to modern script instead of cursive  */
 .scriptInsight {
     color: #7C7DCB;
-    font-family: Dancing Script, cursive;
+    font-family: 'Dancing Script';
     font-style: bold;
     font-size: 32px;
     line-height: 40px;
@@ -450,11 +458,11 @@ a {
 
 /* CONCLUSION section  */
 #h1conclusion {
-
+    padding-bottom: 2rem;
 }
 
 #h4conclusion {
-
+    color: #F1F0F4;
 }
 
 
