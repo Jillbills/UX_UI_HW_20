@@ -306,7 +306,7 @@ a {
 
 #EYprototypeMockup {
     background-color: #000000;
-    width="100vw";
+    width: "100vw";
     padding-bottom: 1.1rem;
 }
 
@@ -415,6 +415,7 @@ a {
 
 #protoPersonaImg {
     margin-left: 10%;
+    width: 80%;
 }
 
 .EYblueColorblock {
@@ -521,38 +522,26 @@ a {
 
 
 
-    /* 
-  @keyframes bounceArrow {
-    from {
-      margin-top: 0px;
-    }
-    50% {
-      margin-top: 7px;
-    }
-    to {
-      margin-top: 0px;
-    }
-  }  */
-
-
 /* PROTOTYPING section */
 
 
 
 /* USABILITY TESTING section in 2x2 grid  */
 /* Does the grid have a hidden z-index? It runs right over my sticky header  */
-.UTcontainer {
+
+
+/* .UTcontainer {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.usabilityTestingDesktop {
+/* .usabilityTestingDesktop {
     position: absolute;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-30%);
     width: 95%;
-}
+} */
 
 .bg-dark {
     background-color: #171717; 
@@ -738,3 +727,129 @@ footer .col-md-4 {
     padding: 0.5rem 2rem;
 }
 
+
+
+
+
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+/* Media Queries Media Queries Media Queries Media Queries Media Queries */
+@media only screen and (max-width: 600px) {
+    /* ENTIRE PAGE styles */
+    h1 {
+        font-size: 76px;
+        font-weight: 700;
+        line-height: 84px;
+    }
+
+    /* HERO */
+
+
+    /* DESIGN PHASES section */
+/* v1  */
+    .designPhasesIcons {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .phaseIcon01 {
+        text-align: left;
+    }
+
+    .phaseIcon02 {
+        text-align: center;
+    }
+
+    .phaseIcon03 {
+        text-align: right;
+    }
+
+    .phaseIcon04 {
+        text-align: center;
+    }
+
+    .phaseIcon05 {
+        text-align: left;
+    }
+
+    .phaseIcon06 {
+        text-align: center;
+    }
+
+
+/* change to v2 - css code is currently broken??? */
+    /* .designPhasesIcons {
+        display: grid;
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "phaseIcon01 phaseIcon02"
+        "phaseIcon03 phaseIcon04"
+        "phaseIcon05 phaseIcon06"
+        ;
+    }
+
+    .phaseIcon01 {
+        grid-area: phaseIcon01;
+    }
+
+    .phaseIcon02 {
+        grid-area: phaseIcon01;
+    }
+
+    .phaseIcon03 {
+        grid-area: phaseIcon01;
+    }
+
+    .phaseIcon04 {
+        grid-area: phaseIcon01;
+    }
+
+    .phaseIcon05 {
+        grid-area: phaseIcon01;
+    }
+
+    .phaseIcon06 {
+        grid-area: phaseIcon01;
+    } */
+
+
+
+    
+    /* UX RESEARCH section  */
+
+
+    #protoPersonaImg {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .EYblueColorblock {
+        height: 5rem;
+    }
+    
+    .EYpinkColorblock {
+        height: 3rem;
+    }
+    
+    /* DEFINITION section */
+
+    /* IDEATION section */
+
+    /* PROTOTYPING section */
+    #EYwireframes {
+        width: 100%;
+    }
+
+    /* USABILITY TESTING section */
+
+    /* FINAL PROTOTYPE section  */
+
+
+
+
+    /* CONCLUSION section  */
+
+    /* FOOTER */
