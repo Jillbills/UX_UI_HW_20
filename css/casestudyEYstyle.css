@@ -200,8 +200,8 @@ button:hover {
 
 section {
     padding-bottom: 8rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .card-body p {
@@ -270,7 +270,8 @@ a {
     position: fixed;
     top: 0;
     /* width: 98.5%; Was testing this over Zoom earlier but 100% seems to work better */
-    width: 100%; 
+    /* width: 100%;   */
+    width: 100vw;
   }
   
   /* .sticky + .content {
@@ -288,7 +289,7 @@ a {
     background-image: url("../images/caseStudy/EducateYa/EYRWDmockupLarge.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 25px);
+    height: calc(100vh - 25px);  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,10 +387,6 @@ a {
 
 
 /* UX RESEARCH section in 1 or 2 grids  */
-.card, .col-md-6 {
-    border: 2px solid red;
-}
-
 #UXresearch .row {
     padding-bottom: 1rem;
 }
@@ -454,25 +451,20 @@ Having difficulty targeting certain elements */
     align-items: flex-start;
 }
 
-.definitionInsight {
-    border: greenyellow;
+.definitionInsight  {
+    border: 2px solid greenyellow;
     align-items: flex-end;
-    justify-content: right;
+    justify-self: right;
+    flex-grow: 1;
 }
 
 #definition .definitionInsight {
-    border: magenta;
+    border: 2px solid magenta;
     align-items: flex-end;
     justify-content: right;
 }
 
-.lightbulbImg {
-    border: 2px solid red;
-}
-
-/* Doesn't appear to be highlighting this section - need to target section h1  */
 .sectionHeader {
-    border: 3px solid yellow;
     margin-block-end: 0;
     margin-block-start: 0;
     padding-bottom: 4rem;
@@ -498,7 +490,7 @@ Having difficulty targeting certain elements */
 }
 
 .carousel-item {
-    width: 100vw;
+    width: 90%;
 }
 
 .carouselContainer {
@@ -508,8 +500,9 @@ Having difficulty targeting certain elements */
 
 .carousel-inner {
     /* width: 100vw;  */
-    width: 100vw;
-    border: 2px solid orange;
+    /* width: 100vw;  need to account for padding of section*/
+    width: calc(100vw - 10vw);
+    border: 2px solid red;
 }
 
 .story0, .story1, .story2, .story3, .story4 {
@@ -543,12 +536,12 @@ Having difficulty targeting certain elements */
 /* USABILITY TESTING section in 2x2 grid  */
 /* Does the grid have a hidden z-index? It runs right over my sticky header  */
 
-
-/* .UTcontainer {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-} */
+.card, .col-md-6 {
+    border: 2px solid red;
+}
+.UTcontainer {
+    align-self: flex-end;
+}
 
 /* .usabilityTestingDesktop {
     position: absolute;
