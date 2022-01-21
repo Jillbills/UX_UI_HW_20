@@ -452,7 +452,6 @@ Having difficulty targeting certain elements */
 }
 
 .definitionInsight  {
-    border: 2px solid greenyellow;
     align-items: flex-end;
     justify-self: right;
     flex-grow: 1;
@@ -475,14 +474,15 @@ Having difficulty targeting certain elements */
 
 
 
-/* IDEATION section with Storyboard on carousel. 
-    Accordian for Key Features?  */
+/* IDEATION section with Storyboard on carousel. Accordian for Key Features?  */
 #carouselExampleIndicators {
     padding-bottom: 1rem; 
     }
 
 .carousel-indicators {
-    transform: scale(2);
+    transform: scale(1.25);  
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .scrollIcon {
@@ -495,21 +495,16 @@ Having difficulty targeting certain elements */
 
 .carouselContainer {
     padding-bottom: 4rem;
-    border: 2px solid yellow;
 } 
 
 .carousel-inner {
     /* width: 100vw;  */
     /* width: 100vw;  need to account for padding of section*/
     width: calc(100vw - 10vw);
-    border: 2px solid red;
 }
 
 .story0, .story1, .story2, .story3, .story4 {
-    border: 2px solid lightskyblue;
     width: 100%;
-
-
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -879,6 +874,7 @@ footer button:hover {
     /* DEFINITION section */
 
     /* IDEATION section */
+    
 
     /* PROTOTYPING section */
     #EYwireframes {
