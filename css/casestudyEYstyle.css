@@ -404,6 +404,10 @@ a {
     padding-bottom: 1rem;
 }
 
+.heuristicCard {
+    margin-left: 1rem;
+}
+
 .redlineNumbers {
     /* color: #FD0013;  */
     color: #EE0303; 
@@ -441,7 +445,8 @@ a {
 
 
 /* DEFINITION section  */
-/* To help visualize grid - Remove me */
+/* Why can't I right align the insight statement?
+Having difficulty targeting certain elements */
 .definitionCol1 {
     display: flex;
     flex-direction: column;
@@ -449,7 +454,13 @@ a {
 }
 
 .definitionInsight {
-    border: yellowgreen;
+    border: greenyellow;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+#definition .definitionInsight {
+    border: magenta;
     align-items: flex-end;
     justify-content: right;
 }
@@ -605,18 +616,17 @@ a {
     grid-area: footerh1;
 } */
 
-footer {
-    border: 2px solid red;
-}
 
-footer .col-md-4 {
-    border: 2px solid lightskyblue;
+
+footer {
+    border-top: 1px solid #F1F0F4;
 }
 
 .connectIcons {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
+    /* padding-left: 2rem;  */
+    padding-left: 10%;
     /* grid-area: connectIcons; */
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -626,7 +636,7 @@ footer .col-md-4 {
     color: #F1F0F4;
     text-align: left;
     line-height: 6rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-left: 10%;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -642,17 +652,20 @@ footer .col-md-4 {
     line-height: 28px;
     letter-spacing: -2%;
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem;  */
 }
 
 .footerRow {
     display: flex;
     flex-direction: row;
+    padding-bottom: 2rem;
 }
 
 .copyrightRow {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #F1F0F4;
+    padding-top: 1rem;
 }
 
 #footerText {
@@ -661,8 +674,6 @@ footer .col-md-4 {
     font-size: 12px;
     font-weight: normal;
     line-height: 16px;
-/* Why can't I get this p id div to center across the entire width?  */
-    border: 2px solid green;
     text-align: center;
 }
 
@@ -693,19 +704,19 @@ footer .col-md-4 {
     padding-left: 2rem;
 }
 
-
 .footerResume {
     border: 2px solid magenta;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #buttonResume {
-    margin-left: 3.75rem;
+    width: 50%;
+    text-align: center;
 }
 
-.footer button {
-/* I want to center this in the div */
+footer button {
     border: 3px solid #ECE5BA;
     border-radius: 4px;
     color: #ECE5BA;
@@ -714,7 +725,7 @@ footer .col-md-4 {
     margin-top: 1rem;
 }
 
-.footer button:hover {
+footer button:hover {
     background: #F1F0F4;
     color: #7C7DCB;
     border-color: #F1F0F4;
