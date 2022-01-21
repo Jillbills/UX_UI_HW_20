@@ -13,7 +13,7 @@
 
 <!-- Linking files  -->
     <!-- Bootstrap CSS file  -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
 
     <!-- Original linked file before homepage was renamed <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="./css/styleConnectForm.css">
@@ -95,8 +95,46 @@
 
 
 
+
 <!--Footer-->
-<footer>
+    <!-- v2 footer built cleaner with Bootstrap 4 grid system -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerRow">
+                <div class="col-sm-12 col-md-4">
+                    <h1 class="footerh1">Let's 
+                        <br>Connect!</h1>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="connectIcons">
+                        <div class="emailWithIcon">
+                            <a href="./indexForm.html"><img src="./images/emailIcon.png" alt="email icon" width="60px" height="42px"></a>
+                            <a href="./indexForm.html"><h6 class="footerh6 emailText">Email</h6></a>
+                        </div>
+            
+                        <div class="LinkedInWithIcon">
+                            <img src="./images/LinkedInIcon.png" alt="LinkedIn icon" width="60px" height="55px">
+                            <h6 class="footerh6 LinkedInText">LinkedIn</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="footerResume">
+                        <h6 class="footerh6 text-center">Explore my work history</h6>
+                        <button id="buttonResume" type="button">Resume</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyrightRow">
+                <p id="footerText"> &copy Copyright 2022 - Designed by Jill Van</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+<!-- ORIGINAL v1 footer built from scratch
+    <footer>
     <section class="footer">
         <div>
             <h1 class="footerh1">Let's</h1>
@@ -122,7 +160,8 @@
 
         <p id="footerText"> &copy Copyright 2022 - Designed by Jill Van</p>
     </section>
-    </footer>
+    </footer> -->
+
 
 </div> <!-- This closes my "content" class div which contains most of body through footer, excludes the sticky header-->
 

@@ -194,7 +194,7 @@ button:hover {
 
 
 /* ALL SECTIONS styling */
-.content {
+.content, .container, .card-body, .row {
     background-color: #000000;
 }
 
@@ -202,15 +202,6 @@ section {
     padding-bottom: 8rem;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-.container, .card-body {
-    background-color: #000000; 
-}
-
-.row {
-    background-color: #000000; 
-    /* padding-bottom: 8rem;  */
 }
 
 .card-body p {
@@ -235,7 +226,7 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
+    z-index: 10; 
 }
 
 .topNav {
@@ -278,7 +269,6 @@ a {
 .sticky {
     position: fixed;
     top: 0;
-    /* width: 100%;  */
     /* width: 98.5%; Was testing this over Zoom earlier but 100% seems to work better */
     width: 100%; 
   }
@@ -420,6 +410,7 @@ a {
 #protoPersonaImg {
     margin-left: 10%;
     width: 80%;
+    margin-bottom: 8rem;
 }
 
 .EYblueColorblock {
@@ -435,10 +426,20 @@ a {
 }
 
 .insightsList {
+    background-color: #F1F0F4; ;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 0;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.insightsList li {
+    color: #4C555D;
+}
+
+.insightsList strong {
+    color: #c61f4b;
 }
 
 
@@ -534,7 +535,9 @@ Having difficulty targeting certain elements */
 
 
 /* PROTOTYPING section */
-
+.sketchRow {
+    margin-top: 4rem;
+}
 
 
 /* USABILITY TESTING section in 2x2 grid  */
@@ -581,7 +584,53 @@ Having difficulty targeting certain elements */
 }
 
 /* FINAL PROTOTYPE section  */
+#finalPrototype {
+    padding-bottom: 0px;
+}
 
+.finalPrototypeGrid {
+    display: grid;
+    position: relative;
+    /* margin-left: 2rem;  */
+    margin-left: 0; 
+    margin-right: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 720px 280px;
+    grid-template-areas: 
+    "desktopMockup desktopMockup"
+    "prototypeButtons mobileMockup"
+    ;
+    /* padding-bottom: 4rem;  */
+    padding-bottom: 0px;
+}
+
+/* Trying to get my images to overlap but not over text  */
+.desktopMockup {
+    position: relative;
+    z-index: 0;
+    transform: scale(0.75);
+    padding-left: 0;
+}
+
+.mobileMockup {
+    position: absolute;
+    right: 0px;
+    margin-right: 2%;
+    margin-top: 2rem;
+    transform: scale(0.75);
+}
+
+.prototypeButtons {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 0px;
+    /* height: 160px;  */
+    height: 108px;
+}
 
 
 
@@ -597,25 +646,15 @@ Having difficulty targeting certain elements */
 }
 
 
-/* FOOTER  */
-/* .footer {
+
+/* FOOTER */
+.container, .card-body {
     background-color: #000000; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 1rem;
-    grid-template-rows: 1.75fr 0.25fr;
-    grid-template-areas: 
-        "footerh1 connectIcons footerResume"
-        "#footerText #footerText #footerText"
-        ;
-    align-items: center;
-    justify-content: space-evenly;
-} */
+}
 
-/* .footerh1 {
-    grid-area: footerh1;
-} */
-
+.card-body p {
+    padding-bottom: 1rem;
+}
 
 
 footer {
@@ -705,7 +744,6 @@ footer {
 }
 
 .footerResume {
-    border: 2px solid magenta;
     display: flex;
     flex-direction: column;
     align-items: center;

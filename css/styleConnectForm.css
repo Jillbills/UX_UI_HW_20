@@ -359,8 +359,139 @@ form {
 
 
 /* FOOTER Styles */
+/* v2 Bootstrap 4 footer CSS */
+
+.container, .card-body {
+    background-color: #000000; 
+}
+
+.card-body p {
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: #000000; 
+    border-top: 1px solid #F1F0F4;
+}
+
+.connectIcons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerh1 {
+    color: #F1F0F4;
+    text-align: left;
+    line-height: 6rem;
+    padding-top: 4rem;
+    padding-left: 10%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.footerh6 {
+    color: #F1F0F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+    margin-top: 3rem;
+}
+
+.footerRow {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.copyrightRow {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #F1F0F4;
+    padding-top: 1rem;
+}
+
+#footerText {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: center;
+}
+
+.emailWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+.emailText:hover {
+    color: #7C7DCB;
+}
+
+.LinkedInWithIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.LinkedInText {
+    color: #F1F0F4;
+    padding-left: 2rem;
+}
+
+.footerResume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttonResume {
+    width: 50%;
+    text-align: center;
+}
+
+footer button {
+    border: 3px solid #ECE5BA;
+    border-radius: 4px;
+    color: #ECE5BA;
+    box-sizing: border-box;
+    background-color: transparent; 
+    margin-top: 1rem;
+}
+
+footer button:hover {
+    background: #F1F0F4;
+    color: #7C7DCB;
+    border-color: #F1F0F4;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+
+
+/* 
+v1 footer styling CSS
 .footer {
-    /* background-color: #7C7DCB; */
+    background-color: #7C7DCB;
     background-color: #000000; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -374,15 +505,10 @@ form {
     justify-content: space-evenly;
 }
 
-/* .footerh1 {
-    grid-area: footerh1;
-} */
-
 .connectIcons {
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
-    /* grid-area: connectIcons; */
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -390,7 +516,6 @@ form {
 .footerh1 {
     color: #F1F0F4;
     text-align: left;
-    /* line-height: 16px; */
     padding-top: 2rem;
     padding-left: 10%;
     margin-top: 3rem;
@@ -414,7 +539,6 @@ form {
     font-size: 12px;
     font-weight: normal;
     line-height: 16px;
-/* Why can't I get this p id div to center across the entire width?  */
 }
 
 .emailWithIcon {
@@ -450,12 +574,10 @@ form {
 }
 
 .footer button {
-/* I want to center this in the div */
     border: 3px solid #ECE5BA;
     border-radius: 4px;
     color: #ECE5BA;
     box-sizing: border-box;
-    /* background-color: #7C7DCB;  */
     background-color: #000000; 
     margin-top: 1rem;
 }
@@ -471,9 +593,9 @@ form {
     justify-content: center;
     align-items: center;
     padding: 0.5rem 2rem;
-}
-
-
+} 
+*/
+ 
 
 
 
