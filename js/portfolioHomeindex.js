@@ -124,5 +124,3 @@ window.onclick = function(event) {
 };
 
 
-
-
