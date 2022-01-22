@@ -359,11 +359,6 @@ a {
 
 
 
-
-
-
-
-
 /* ABOUT Section */
 #about {
     background-color: #000000;
@@ -669,6 +664,9 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 }
 
 
+
+
+
 /* WORK Section */
 #work {
     /* background-color: #F1F0F4; */
@@ -702,6 +700,10 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 
 #EYmockup {
     width: 100%;
+}
+
+.EducateYa button {
+    cursor: pointer;
 }
 
 .DeptEd {
