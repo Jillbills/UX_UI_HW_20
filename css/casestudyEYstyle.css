@@ -14,7 +14,6 @@ h1 {
     margin-block-start: 0;
     padding-top: 8rem;
     padding-bottom: 4rem; 
-    /* padding-bottom: 8rem;  */
 }
 
 h2 {
@@ -282,7 +281,7 @@ a {
 
 .EYhero {
     background-image: url("../images/caseStudy/EducateYa/EYRWDmockupLarge.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);  
     display: flex;
@@ -438,8 +437,6 @@ a {
 
 
 /* DEFINITION section  */
-/* Why can't I right align the insight statement?
-Having difficulty targeting certain elements */
 .definitionCol1 {
     display: flex;
     flex-direction: column;
@@ -453,9 +450,9 @@ Having difficulty targeting certain elements */
 }
 
 #definition .definitionInsight {
-    border: 2px solid magenta;
-    align-items: flex-end;
-    justify-content: right;
+    align-self: flex-end;
+    justify-self: right;
+    padding-bottom: 1rem;
 }
 
 .sectionHeader {
@@ -757,13 +754,77 @@ footer button:hover {
 /* Media Queries Media Queries Media Queries Media Queries Media Queries */
 @media only screen and (max-width: 600px) {
     /* ENTIRE PAGE styles */
-    h1 {
-        font-size: 76px;
-        font-weight: 700;
-        line-height: 84px;
+    h1, #UXresearch h1, #definition h1  {
+        font-size: 60px;
+        line-height: 64px;
+        padding-bottom: 1rem;
     }
 
-    /* HERO */
+    h2 {
+    font-size: 52px;
+    line-height: 56px;
+    padding-bottom: 4rem;
+    }
+
+    h3 {
+    font-size: 40px;
+    }
+
+    h4 {
+    font-size: 28px;
+    }
+
+    h6 {
+    font-size: 24px;
+    }
+
+    p {
+    font-size: 18px;
+    line-height: 28px;
+    }
+
+    li {
+    font-size: 18px;
+    line-height: 28px;
+    }
+
+    .header3 {
+    font-size: 40px;
+    line-height: 56px;
+    }
+
+    .header4 {
+    font-size: 28px;
+    line-height: 48px;
+    }
+
+    section {
+        padding-bottom: 2rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    /* EY HERO */
+
+    /* NAVBAR */
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* DESIGN TOOLS */
+        
+    .designTools {
+        padding-bottom: 0rem;
+    }
+
+    .designTools h2 {
+        padding-bottom: 2rem;
+    }
+
+    .designPhasesIcons {
+        margin-right: 0rem;
+    }
 
     /* DESIGN PHASES section */
 /* v1  */
@@ -795,12 +856,12 @@ footer button:hover {
     .phaseIcon06 {
         text-align: center;
     }
-
     
     /* UX RESEARCH section  */
     #protoPersonaImg {
         width: 100%;
         margin-left: 0%;
+        margin-bottom: 2rem;
     }
 
     .EYblueColorblock {
@@ -810,7 +871,16 @@ footer button:hover {
     .EYpinkColorblock {
         height: 3rem;
     }
-    
+
+    .insightsList {
+        background-color: #F1F0F4; ;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+        padding-left: 8%;
+        padding-right: 5%;
+    }
+
     /* DEFINITION section */
 
     /* IDEATION section */
@@ -820,10 +890,46 @@ footer button:hover {
         width: 100%;
     }
 
-    /* USABILITY TESTING section */
+    .protoContainer {
+        padding-top: .05rem;
+        padding-bottom: 1rem;
+    }
 
+    /* USABILITY TESTING section */
+    .UTcontainer {
+        padding-top: .05rem;
+        padding-bottom: 1rem;
+    }
     /* FINAL PROTOTYPE section  */
+    .desktopMockup {
+        position: relative;
+        z-index: 0;
+        transform: scale(0.50);
+        padding-left: 0px;
+    }
+
+    .mobileMockup {
+        position: absolute;
+        left: 0px;
+        margin-right: 0px;
+        margin-top: 2rem;
+        transform: scale(0.50);
+    }
+
+    .prototypeButtonsCol {
+        padding-top: 4%;
+        padding-bottom: 1rem;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
 
     /* CONCLUSION section  */
+    #h4conclusion {
+        padding-bottom: 2rem;
+    }
+
+    #conclusion cardContainer {
+        padding-bottom: 0px;
+    }
 
     /* FOOTER */
