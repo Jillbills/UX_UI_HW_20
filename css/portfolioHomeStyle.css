@@ -1,57 +1,58 @@
 /* TEXT/FONT/COPY Styles */
+
 h1 {
-    color: #7C7DCB;
+    color: #E8DA86; 
     font-family: 'Oswald', sans-serif;
-    /* original font size was 76px  */
-    font-size: 108px;
-    font-weight: bold;
+    font-size: 96px;
+    font-weight: 700;
     line-height: 84px;
     text-transform: uppercase;
     text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     margin-block-end: 0;
     margin-block-start: 0;
+    padding-top: 8rem;
+    padding-bottom: 4rem; 
 }
 
 h2 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
-    font-size: 60px;
-    /* Original was font-weight: 800;  */
+    font-size: 64px;
     font-weight: 700;
-    line-height: 68px;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    line-height: 72px;
+    /* padding-top: 2rem;  */
+    padding-bottom: 4rem;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h3 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
+    line-height: 56px;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 44px;
     letter-spacing: -4%;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h6 {
-    color: #7C7DCB;
+    color: #E8DA86; 
+    /* color: #c61f4b;  */
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: -2%;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -65,12 +66,16 @@ p {
     line-height: 28px;
 }
 
-.h2r {
-   text-align: right;
+li {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
 }
 
 .header3 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -78,20 +83,21 @@ p {
 }
 
 .header4 {
-    color: #7C7DCB;
+    color: #E8DA86; 
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 44px;
     letter-spacing: -4%;
 }
 
 strong {
-    color: #7C7DCB;
+    
+    color: #E8DA86; 
 }
 
 .formText {
-    color: #B0B3C3;
+    color: #878B9D;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -112,31 +118,40 @@ strong {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: -2%;
 }
 
 #footerText {
     color: #F1F0F4;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
-    line-height: 16px;
+    line-height: 22px;
     padding-left: 3rem;
     /* why is the copyright footer text not centered? */
 }
 
-/* #h2.h2rightAlign {
+/* TEXT ALIGN Styles  */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
     text-align: right;
-} */
+}
 
 
 
 /* BUTTON/ASSETS STYLES */
 button {
-    border: 3px solid #7C7DCB;
+    border: 3px solid #E8DA86;
     border-radius: 4px;
-    color: #7C7DCB;
+    color: #E8DA86;
     box-sizing: border-box;
     background-color: transparent;
     font-style: 'Inter', sans-serif;
@@ -146,18 +161,12 @@ button {
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
-    /* transition: background-color 0.5s ease-in-out;   */
-    /* Use these properties below??? */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
 
 button:hover {
-    background-color: #7C7DCB;
+    background-color: #baa00e;
     color: #F1F0F4;
-    border: 3px solid #7C7DCB;
+    border: 3px solid #baa00e;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -168,12 +177,6 @@ button:hover {
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
-    /* transition: background-color 0.5s ease-in-out;   */
-    /* Use these properties below??? */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
 
 
@@ -181,63 +184,6 @@ button:hover {
 
 
 /* HERO Section */
-
-
-/* ANIMATED ELEMENTS in hero  */
-/* overflow property doesn't appear to be doing anything yet, but
-visibility: hidden; works to hide the div */
-
-/* .heroLogo {
-    width: 296px;
-    z-index: 1;
-    position: absolute;
-    top: 12.18%;
-    left: 7.95%;
-    visibility: hidden;  
-} 
-
-.heroLogo.animate {
-    animation: slidein 1s ease-in;
-    animation-direction: normal;
-}
-
-@keyframes slidein {
-    0% {
-        transform: translateX(0%);
-      }
-    100% {
-        transform: translateX(150%);
-      } 
-} */
-
-
-/* 
-.heroCopy {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    z-index: 1;
-    visibility: hidden; 
-}
-
-.heroCopy.animate {
-    animation: dropin 1s ease-in;
-    animation-direction: normal;
-}
-
-@keyframes dropin {
-    0% {
-        transform: translateY(-50%);
-      }
-    50% {
-        transform: translateY(0%);
-      } 
-    100% {
-        transform: translateY(20%);
-      } 
-}  */
-
-
 
 /* STATIC ELEMENTS in hero  */
 .heroContent {
@@ -310,7 +256,6 @@ visibility: hidden; works to hide the div */
 
 .navLinks {
     display: inline;
-    /* color: #7C7DCB;  */
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
@@ -327,7 +272,7 @@ a {
 
 .navLinks:hover {
     text-decoration: underline;
-    text-decoration-color: #7C7DCB;
+    text-decoration-color: #E8DA86;
     text-decoration-thickness: 4px;
     text-underline-position: under;
 }
@@ -462,7 +407,6 @@ border: 3px solid #ECE5BA;
 border-radius: 4px;
 color: #ECE5BA;
 box-sizing: border-box;
-/* background-color: #7C7DCB;  */
 background-color: transparent; 
 margin-top: 1rem;
 }
@@ -490,10 +434,6 @@ margin-top: 1rem;
     margin: 0;
 }
 
-/* bullets or no bullets hmmm... code for no bullets */
-/* .hobbiesList li {
-    list-style-type: none;
-} */
 .hobbiesList {
     color: #F1F0F4;
     font-family: 'Raleway', sans-serif;
@@ -531,9 +471,6 @@ margin-top: 1rem;
     height: 100%;
     background-repeat: no-repeat;
     transition: background-image 2s ease-in-out;
-    /* width: 96%;
-    margin-left: 2%;
-    margin-right: 2%; */
 }
 
 .thomasPhoto:hover {
@@ -576,10 +513,6 @@ margin-top: 1rem;
 }
 
 .col25 {
-    /* justify-content: space-evenly;  */
-    /* width: 96%;
-    margin-left: 2%;
-    margin-right: 2%; */
     height: 300px;
 } 
 
@@ -587,8 +520,7 @@ margin-top: 1rem;
 
 
 
-/* Add transition effects here
-Trick was to be sure that I am using the ../images to follow the correct file structure. It also need a height set to it i.e. height: 100% */
+/* Add transition effects here */
 .Illenium {
     background-image: url("../images/playgroundImages/IlleniumStage.png"); 
     height: 100%;
@@ -662,8 +594,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     margin-right: 2rem;
     padding-bottom: 8rem; 
 }
-
-
 
 
 
@@ -744,7 +674,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 }
 
 .MeerkatCoverImage {
-    /* flex-basis: 595px;  */
     width: 42%;
     margin-left: 3%;
 }
@@ -767,7 +696,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 
 /* FOOTER Styles */
 .footer {
-    /* background-color: #7C7DCB; */
     background-color: #000000; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -780,10 +708,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     align-items: center;
     justify-content: space-evenly;
 }
-
-/* .footerh1 {
-    grid-area: footerh1;
-} */
 
 .connectIcons {
     display: flex;
@@ -821,7 +745,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     font-size: 12px;
     font-weight: normal;
     line-height: 16px;
-/* Why can't I get this p id div to center across the entire width?  */
 }
 
 .emailWithIcon {
@@ -836,7 +759,7 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 }
 
 .emailText:hover {
-    color: #7C7DCB;
+    color: #E8DA86;
 }
 
 .LinkedInWithIcon {
@@ -856,19 +779,17 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 }
 
 .footer button {
-/* I want to center this in the div */
     border: 3px solid #ECE5BA;
     border-radius: 4px;
     color: #ECE5BA;
     box-sizing: border-box;
-    /* background-color: #7C7DCB;  */
     background-color: #000000; 
     margin-top: 1rem;
 }
 
 .footer button:hover {
     background: #F1F0F4;
-    color: #7C7DCB;
+    color: #E8DA86;
     border-color: #F1F0F4;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -891,7 +812,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 /* Media Queries Media Queries Media Queries Media Queries Media Queries */
 @media only screen and (max-width: 600px) {
 
-    /* Need to do media queries for homepage mobile view */
     h1 {
         line-height: 108px;
     }
@@ -916,13 +836,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
         margin-right: 0.5rem;
     }
 
-
-    /* To make nav list items stack in a column instead */
-    /* ul {
-        display: flex;
-        flex-direction: column;
-    } */
-
     h1 {
         margin-left: 0.5rem;
     }
@@ -931,9 +844,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     /* ABOUT section  */
 
     /* ABOUT Entrepreneur Venture */
-    /* .myEntrepreneurVenture {
-        padding-bottom: 2rem;
-    } */
     .ventureContainer {
         display: flex;
         flex-direction: column;
@@ -969,7 +879,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 
 
     /* ABOUT Playground */
-    /* Change grid layout to flexbox layout columns */
     .myPlayground {
         padding-bottom: 4rem;
     }
@@ -1004,12 +913,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
         flex-wrap: wrap; 
     }
 
-    /* .col25 {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid red;
-    } */
-
     .Illenium, .lanternFestivalPic, .beachPic, .wcPainting {
         width: 80%;
         margin-left: 10%;
@@ -1032,7 +935,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
         padding-left: 0px;
         margin: 0px;
         background-color: #e3ddf6;
-/* Need to make this img scale properly and left aligned  */
     }
 
     /* ABOUT Design Tools */
@@ -1068,8 +970,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     .educateYaSummary, .educateYaPrototype {
         width: 88%;
         padding-bottom: 2rem;
-        /* margin-left: 0.5rem;
-        margin-right: 0.5rem; */
     }
 
     .educateYaPrototype img {
@@ -1087,8 +987,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
     .USdeptOfEducationSummary, .edCoverImage {
         width: 88%;
         padding-bottom: 2rem;
-        /* margin-left: 0.5rem;
-        margin-right: 0.5rem; */
     }
 
     .edCoverImage {
@@ -1100,38 +998,25 @@ Trick was to be sure that I am using the ../images to follow the correct file st
         width: 100%;
     }
 
-    /* Control this rogue img file. Why isn't flex-shrink working? */
     .Meerkat {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
-        /* margin: 0 auto; */
-        /* position: relative;  */
     }
 
     .MeerkatSummary {
         width: 88%;
-        /* margin-right: 0.5rem; */
         justify-self: center;
     }
 
     .MeerkatCoverImage {
         padding-top: 1rem;
         max-width: 595px;  
-        /* justify-self: center;
-        padding-top: 0px;
-        padding-bottom: 0px; */
-        /* position: absolute;
-        left: 50%;
-        transform: translateX(-50%); */
     }
 
     .MeerkatSummary, .MeerkatCoverImage {
         width: 88%;
         padding-bottom: 2rem;
-        /* margin-left: 0.5rem;
-        margin-right: 0.5rem; */
     }
 
     .MeerkatCoverImage img {
@@ -1174,8 +1059,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
 
     .footerh1 {
         text-align: center;
-        /* padding-top: 2rem;
-        margin-top: 2rem; */
     }
 
     .connectIcons {
@@ -1190,7 +1073,6 @@ Trick was to be sure that I am using the ../images to follow the correct file st
         flex-direction: column;
     }
 
-/* How do I center this button?  */
     .footer button {
         text-align: center;
         justify-self: center;

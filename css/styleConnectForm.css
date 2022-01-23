@@ -1,57 +1,58 @@
 /* TEXT/FONT/COPY Styles */
+
 h1 {
-    color: #7C7DCB;
+    color: #E8DA86; 
     font-family: 'Oswald', sans-serif;
-    /* original font size was 76px  */
-    font-size: 108px;
-    font-weight: bold;
+    font-size: 96px;
+    font-weight: 700;
     line-height: 84px;
     text-transform: uppercase;
     text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     margin-block-end: 0;
     margin-block-start: 0;
+    padding-top: 8rem;
+    padding-bottom: 4rem; 
 }
 
 h2 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
-    font-size: 60px;
-    /* Original was font-weight: 800;  */
+    font-size: 64px;
     font-weight: 700;
-    line-height: 68px;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    line-height: 72px;
+    /* padding-top: 2rem;  */
+    padding-bottom: 4rem;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h3 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
+    line-height: 56px;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 44px;
     letter-spacing: -4%;
     margin-block-end: 0;
     margin-block-start: 0;
 }
 
 h6 {
-    color: #7C7DCB;
+    color: #E8DA86; 
+    /* color: #c61f4b;  */
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: -2%;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -65,12 +66,16 @@ p {
     line-height: 28px;
 }
 
-.h2r {
-   text-align: right;
+li {
+    color: #F1F0F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
 }
 
 .header3 {
-    color: #B0B3C3;
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -78,20 +83,21 @@ p {
 }
 
 .header4 {
-    color: #7C7DCB;
+    color: #E8DA86; 
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 44px;
     letter-spacing: -4%;
 }
 
 strong {
-    color: #7C7DCB;
+    
+    color: #E8DA86; 
 }
 
 .formText {
-    color: #B0B3C3;
+    color: #878B9D;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -112,31 +118,40 @@ strong {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: -2%;
 }
 
 #footerText {
     color: #F1F0F4;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
-    line-height: 16px;
+    line-height: 22px;
     padding-left: 3rem;
     /* why is the copyright footer text not centered? */
 }
 
-/* #h2.h2rightAlign {
+/* TEXT ALIGN Styles  */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
     text-align: right;
-} */
+}
 
 
 
 /* BUTTON/ASSETS STYLES */
 button {
-    border: 3px solid #7C7DCB;
+    border: 3px solid #E8DA86;
     border-radius: 4px;
-    color: #7C7DCB;
+    color: #E8DA86;
     box-sizing: border-box;
     background-color: transparent;
     font-style: 'Inter', sans-serif;
@@ -146,18 +161,12 @@ button {
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
-    /* transition: background-color 0.5s ease-in-out;   */
-    /* Use these properties below??? */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
 
 button:hover {
-    background-color: #7C7DCB;
+    background-color: #baa00e;
     color: #F1F0F4;
-    border: 3px solid #7C7DCB;
+    border: 3px solid #baa00e;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -168,12 +177,6 @@ button:hover {
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
-    /* transition: background-color 0.5s ease-in-out;   */
-    /* Use these properties below??? */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
 
 
@@ -213,8 +216,6 @@ button:hover {
 
 .navLinks {
     display: inline;
-    /* color: #333B7E;  */
-    /* color: #7C7DCB;  */
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
@@ -231,14 +232,14 @@ a {
 
 .navLinks:hover {
     text-decoration: underline;
-    text-decoration-color: #7C7DCB;
+    text-decoration-color: #E8DA86;
     text-decoration-thickness: 4px;
     text-underline-position: under;
 }
 
 #navConnect {
     text-decoration: underline;
-    text-decoration-color: #7C7DCB;
+    text-decoration-color: #E8DA86;
     text-decoration-thickness: 4px;
     text-underline-position: under;
 }
@@ -438,7 +439,7 @@ footer {
 }
 
 .emailText:hover {
-    color: #7C7DCB;
+    color: #E8DA86;
 }
 
 .LinkedInWithIcon {
@@ -475,7 +476,7 @@ footer button {
 
 footer button:hover {
     background: #F1F0F4;
-    color: #7C7DCB;
+    color: #E8DA86;
     border-color: #F1F0F4;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -485,117 +486,3 @@ footer button:hover {
     align-items: center;
     padding: 0.5rem 2rem;
 }
-
-
-
-/* 
-v1 footer styling CSS
-.footer {
-    background-color: #7C7DCB;
-    background-color: #000000; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 1rem;
-    grid-template-rows: 1.75fr 0.25fr;
-    grid-template-areas: 
-        "footerh1 connectIcons footerResume"
-        "#footerText #footerText #footerText"
-        ;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.connectIcons {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-.footerh1 {
-    color: #F1F0F4;
-    text-align: left;
-    padding-top: 2rem;
-    padding-left: 10%;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-block-end: 0;
-    margin-block-start: 0;
-}
-
-.footerh6 {
-    color: #F1F0F4;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: -2%;
-}
-
-#footerText {
-    color: #F1F0F4;
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 16px;
-}
-
-.emailWithIcon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-}
-
-.emailText {
-    color: #F1F0F4;
-    padding-left: 2rem;
-}
-
-.emailText:hover {
-    color: #7C7DCB;
-}
-
-.LinkedInWithIcon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 1rem;
-}
-
-.LinkedInText {
-    color: #F1F0F4;
-    padding-left: 2rem;
-}
-
-#buttonResume {
-    margin-left: 3.75rem;
-}
-
-.footer button {
-    border: 3px solid #ECE5BA;
-    border-radius: 4px;
-    color: #ECE5BA;
-    box-sizing: border-box;
-    background-color: #000000; 
-    margin-top: 1rem;
-}
-
-.footer button:hover {
-    background: #F1F0F4;
-    color: #7C7DCB;
-    border-color: #F1F0F4;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 2rem;
-} 
-*/
- 
-
-
-

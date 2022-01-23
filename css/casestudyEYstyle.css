@@ -1,10 +1,8 @@
 /* TEXT/FONT/COPY Styles */
 
 h1 {
-    color: #7C7DCB; 
-    /* color: #194d6d;  */
+    color: #E8DA86; 
     font-family: 'Oswald', sans-serif;
-    /* original font size was 76px  */
     font-size: 96px;
     font-weight: 700;
     line-height: 84px;
@@ -17,11 +15,9 @@ h1 {
 }
 
 h2 {
-    color: #B0B3C3; 
-    /* color: #6b7680;  */
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 64px;
-    /* Original was font-weight: 800;  */
     font-weight: 700;
     line-height: 72px;
     /* padding-top: 2rem;  */
@@ -31,8 +27,7 @@ h2 {
 }
 
 h3 {
-    color: #B0B3C3; 
-    /* color: #6b7680;  */
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -52,7 +47,7 @@ h4 {
 }
 
 h6 {
-    color: #7C7DCB; 
+    color: #E8DA86; 
     /* color: #c61f4b;  */
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -80,8 +75,7 @@ li {
 }
 
 .header3 {
-    color: #B0B3C3; 
-    /* color: #6b7680;  */
+    color: #878B9D; 
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -89,23 +83,21 @@ li {
 }
 
 .header4 {
-    color: #7C7DCB; 
-    /* color: #c61f4b;  */
+    color: #E8DA86; 
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 44px;
     letter-spacing: -4%;
 }
 
 strong {
     
-    color: #7C7DCB; 
-    /* color: #c61f4b;  */
+    color: #E8DA86; 
 }
 
 .formText {
-    color: #B0B3C3;
+    color: #878B9D;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -126,16 +118,16 @@ strong {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: -2%;
 }
 
 #footerText {
     color: #F1F0F4;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
-    line-height: 16px;
+    line-height: 22px;
     padding-left: 3rem;
     /* why is the copyright footer text not centered? */
 }
@@ -157,9 +149,9 @@ strong {
 
 /* BUTTON/ASSETS STYLES */
 button {
-    border: 3px solid #7C7DCB;
+    border: 3px solid #E8DA86;
     border-radius: 4px;
-    color: #7C7DCB;
+    color: #E8DA86;
     box-sizing: border-box;
     background-color: transparent;
     font-style: 'Inter', sans-serif;
@@ -172,9 +164,9 @@ button {
 }
 
 button:hover {
-    background-color: #7C7DCB;
+    background-color: #baa00e;
     color: #F1F0F4;
-    border: 3px solid #7C7DCB;
+    border: 3px solid #baa00e;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -256,7 +248,7 @@ a {
 
 .navLinks:hover {
     text-decoration: underline;
-    text-decoration-color: #7C7DCB;
+    text-decoration-color: #E8DA86;
     text-decoration-thickness: 4px;
     text-underline-position: under;
 }
@@ -268,10 +260,6 @@ a {
     /* width: 98.5%; Was testing this over Zoom earlier but 100% seems to work better */ 
     width: 100%;
   }
-  
-  /* .sticky + .content {
-    padding-top: 102px; 
-  } */
 
 
 
@@ -375,11 +363,7 @@ a {
     transform: rotate(0deg) scale(1.25);
     /* transform: scale(1.25); */
     }
-  }
-
-/* .designPhases {
-    padding-bottom: 12rem;
-} */
+}
 
 
 
@@ -541,7 +525,7 @@ a {
 }
 /* link Dancing Script Google font to change to modern script instead of cursive  */
 .scriptInsight {
-    color: #7C7DCB; 
+    color: #E8DA86; 
     font-family: 'Dancing Script';
     font-style: bold;
     font-size: 32px;
@@ -699,7 +683,7 @@ footer {
 }
 
 .emailText:hover {
-    color: #7C7DCB;
+    color: #E8DA86;
 }
 
 .LinkedInWithIcon {
@@ -736,7 +720,7 @@ footer button {
 
 footer button:hover {
     background: #F1F0F4;
-    color: #7C7DCB;
+    color: #E8DA86;
     border-color: #F1F0F4;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
