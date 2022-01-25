@@ -61,6 +61,7 @@
                 <a href="#work"><li class="navLinks">Work</li></a>
                 <a href="./connectForm.html"><li class="navLinks" id="navConnect">Connect</li></a>
                 <!-- ??? How do I link to my other webpage's anchor within this same folder??? -->
+                <!-- Should make it anchor to above the section's h1 -->
             </ul>
             <br>
         </nav>
@@ -96,8 +97,8 @@
                 <div class="solImagery">
                     <img id="SOLdecalImg" src="./images/SOLdecals.png" alt="Stick Out Loud decals">  <!-- width="640px" height="226px" -->
                     <!-- Opens StickOutLoud website URL in a new tab when clicking this button (no modal) -->
-                    <button id="SOLbutton" type="button" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Explore</button>  
-                    <!-- <button id="SOLbutton" type="button" data-toggle="modal" data-target="#SOLmodal2">Explore</button>  -->
+                    <!-- <button id="SOLbutton" type="button" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Explore</button>  -->
+                    <button id="SOLbutton" type="button" data-toggle="modal" data-target="#SOLmodal2" rel="noopener noreferrer">Explore</button>  
                 </div>
                 <div class="solCopy">
                     <img id="etsyHeader" src="./images/SOLonEtsy.png" alt="Stick Out Loud Custom vinyl decals on Etsy" width="397px" height="92px"><br>
@@ -106,23 +107,23 @@
             </div>
 
             <!-- Modal warning user that they will be taken offsite. Includes button to link to other website in new tab or close modal to return to homepage.  -->
-            <!-- <div class="modal fade" id="SOLmodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="SOLmodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="ModalCenterTitleSOL">Warning:</h5>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ModalCenterTitleSOL">Warning:</h5>
+                        </div>
+                        <div class="SOLmodal-body">
+                            <p>You’re about to encounter fabulous decals offsite.
+                            Hope to see you again soon!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Check it out</button>
+                        </div>
                     </div>
-                    <div class="SOLmodal-body">
-                        <p>You’re about to encounter fabulous decals offsite.<br>
-                        Hope to see you again soon!</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" onclick="window.open('http://stickoutloud.com/')" target="_blank" rel="noopener noreferrer">Check it out</button>
-                    </div>
-                  </div>
                 </div>
-              </div> -->
+            </div>
         </div> 
             
 
@@ -171,7 +172,6 @@
 
         <div class="designSkills">
             <h2 class="h2L">Design Skills</h2>
-            <!-- original width="1024px" height="457px" -->
             <img id="UXskillsImg" src="./images/UXdesignSkillsWordCloudDark.png" alt="UX design skills word cloud"> 
         </div>
 
@@ -196,8 +196,6 @@
         <div class="EducateYa">
             <!--Why is my mobile GIF not showing up? Does PNG files do GIF?-->
             <!-- Ed.gov and Meerkat images are placeholders. To do: Replace Case Study cover slides with Mockup GIFS -->
-
-            <!-- had set width and height - original size width="595px" height="350px"  -->
             <div class="educateYaPrototype">
                 <img id="EYmockup" src="./images/caseStudy/EducateYa/EYRWDMockupSmall.png" alt="Edúcate Ya showcase redesign image">
             </div>
@@ -209,7 +207,6 @@
                 <a href="./casestudyEYdark.html"><button type="button">View Project</button></a>
             </div>
         </div>
-        <hr>
 
         <div class="DeptEd">
             <div class="USdeptOfEducationSummary">
@@ -224,7 +221,7 @@
                 <img id="edImg" src="./images/caseStudy/Edgov/EdgovCoverSlide.jpg" alt="U.S. Dept of Education showcase redesign image"> 
             </div>
         </div>
-        <hr>
+
         <div class="Meerkat">
             <div class="MeerkatCoverImage">
             <!-- had set width and height - original size width="595px" height="350px"  -->

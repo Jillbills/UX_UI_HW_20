@@ -361,7 +361,6 @@ a {
 
 
 /* v2 Bootstrap based SOL Modal Warning of linking to offsite website when clicking Explore button */
-/* How do I make my bootstrap modal not scrollable?  Currently deactivated*/
 .modal-content {
     background-color: #e65d08;
     border-radius: 6px;
@@ -384,7 +383,9 @@ a {
 .SOLmodal-body {
     padding-top: 1%;
     padding-bottom: 1%;
-    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
 }
 
 .modal-footer button {
@@ -593,6 +594,7 @@ margin-top: 1rem;
     margin-left: 3%;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    border-bottom: 1px solid gray;
 }
 
 .educateYaPrototype {
@@ -623,6 +625,7 @@ margin-top: 1rem;
     margin-left: 3%;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    border-bottom: 1px solid gray;
 }
 
 .USdeptOfEducationSummary {
@@ -810,8 +813,13 @@ footer button:hover {
 
     h1 {
         line-height: 108px;
+        padding-top: 3rem;
+        padding-bottom: 1rem; 
     }
 
+    h2 {
+        padding-bottom: 2rem;
+    }
 
 
     /* HERO section */
@@ -926,13 +934,11 @@ footer button:hover {
         display: flex;
         flex-direction: column;
         margin: auto;
-
     }
 
     #UXskillsImg {
         padding-left: 0px;
         margin: 0px;
-        background-color: #e3ddf6;
     }
 
 
@@ -949,6 +955,11 @@ footer button:hover {
 
 
     /* WORK section */
+   .EducateYa, .DeptEd, .Meerkat {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
     .EducateYa {
         display: flex;
         flex-direction: column;
@@ -982,6 +993,7 @@ footer button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0rem;
     }
 
     .USdeptOfEducationSummary, .edCoverImage {
@@ -1001,7 +1013,10 @@ footer button:hover {
     .Meerkat {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-top: 0rem;
     }
 
     .MeerkatSummary {
@@ -1010,17 +1025,18 @@ footer button:hover {
     }
 
     .MeerkatCoverImage {
-        padding-top: 1rem;
         max-width: 595px;  
     }
 
     .MeerkatSummary, .MeerkatCoverImage {
         width: 88%;
-        padding-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 0rem;
     }
 
     .MeerkatCoverImage img {
         width: 100%;
+        padding-top: 1rem;
     }
 
 

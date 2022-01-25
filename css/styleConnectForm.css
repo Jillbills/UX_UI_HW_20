@@ -314,6 +314,7 @@ form {
     width: 60%;
     align-items: center; 
     vertical-align: middle;
+    overflow: auto;
 }
 
 .h3modal {
